@@ -1,6 +1,6 @@
-## Guia para Design de APIs
+# Guia para Design de APIs
 
-### Sumário
+## Sumário
 
 - [Introdução](introduction.md)
   - O que são as APIs?
