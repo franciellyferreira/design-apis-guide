@@ -10,6 +10,7 @@ Um dos benefícios é a facilidade de uso, já que os desenvolvedores não preci
 
 O uso das APIs aumentou exponencialmente nas últimas décadas e muitos aplicativos da web populares não seriam possíveis sem elas.
 
+![API Diagram](images/api-diagram.png)
 
 #### Alguns exemplos de APIs
 
