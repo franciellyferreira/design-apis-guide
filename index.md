@@ -2,7 +2,12 @@
 
 ### Sumário
 
-- Introdução: o que são as APIs?
+- [Introdução](introduction.md)
+  - O que são as APIs?
+  - Alguns exemplos de APIs
+  - Especificações e protocolos de APIs
+    - SOAP
+    - REST
 - REST e RESTful
 - Design First
 - Verbos HTTP
