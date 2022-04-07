@@ -1,7 +1,9 @@
-# Introdução
+# Guia para Design de APIs
+
+## Introdução
 
 
-## O que são as APIs?
+### O que são as APIs?
 
 Interface de programação de aplicativos, ou APIs, permite que as empresas abram os dados e funcionalidades de seus aplicativos para desenvolvedores externos, parceiros de negócios e departamentos internos, permitindo que serviços e produtos se comuniquem e aproveitem os dados e funcionalidades uns dos outros por meio de um interface documentada.
 
@@ -12,7 +14,7 @@ O uso das APIs aumentou exponencialmente nas últimas décadas e muitos aplicati
 ![API Diagram](images/api-diagram.png)
 
 
-## Alguns exemplos de APIs
+### Alguns exemplos de APIs
 
 **Login universal**: essas APIs populares permitem que as pessoas façam login em sites usando seus detalhes de login do perfil do Facebook, Google, Twitter, etc. Essa funcionalidade permite que qualquer site aproveite a API de um dos serviços para realizar rapidamente a autenticação do usuário, economizando tempo, dinheiro e melhorando a experiência de cadastro. 
 
@@ -23,15 +25,15 @@ O uso das APIs aumentou exponencialmente nas últimas décadas e muitos aplicati
 **Google Maps**: um dos exemplos mais comuns de uma boa API é o Google Maps, além da APIs que forneceram mapas estáticos e interativos, também fornecem aos usuário orientações e pontos de interesse. Por meio da geolocalização é possível traçar rotas de viagem e rastrear itens em movimento, como um veículo de entrega.
 
 
-## Especificações e protocolos de APIs
+### Especificações e protocolos de APIs
 
 O objetivo das especificações e protocolos de APIs é padronizar a troca de dados entre diferentes serviços na web, ou seja, capacidade de diversos sistemas escritos em diferentes linguagens e executados em diferentes sistemas operacionais se comunicarem entre si.
 
-### SOAP
+#### SOAP
 
 Este protocolo foi desenvolvido pela Microsoft e segundo glossário [^1] disponibilizado pela empresa, pode-se definir SOAP como um protocolo leve para troca de informações estruturadas em um ambiente descentralizado e distribuído. Ele usa o XML para definir uma estrutura de mensagens extensível, que fornece uma construção de mensagem que pode ser trocada por uma variedade de protocolos subjacentes. A estrutura foi projetada para ser independente de qualquer modelo de programação específico e outras semânticas específicas de implementação.
 
-### REST
+#### REST
 
 O termo REST foi criado pelo cientista da computação Roy Fielding e ao contrário do SOAP, o REST é um estilo de arquitetura de software com seis restrições [^2] para construção de aplicativos que funcionam sobre o protocolo HTTP, geralmente serviços web.
 
@@ -39,6 +41,8 @@ Os desenvolvedores consideram o REST uma alternativa mais simples ao SOAP, que r
 
 As APIs da web que estão de acordo com as restrições da arquitetura REST são chamadas de APIs RESTful. Essas APIs usam solicitações HTTP (verbos) para trabalhar com os recursos, por exemplo, GET, POST, PUT, DELETE, etc, além de suportarem mensagens em diversos formatos como HTML, YAML, XML e JSON, sendo o último o mais comumente utilizado.
 
+
+Referências:
 
 [^1]: [Microsoft Docs Glossary](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-wusp/5daaa9d9-26aa-42fc-a431-c011166dc58f)
 [^2]: [REST API Architectural Constraints](https://www.geeksforgeeks.org/rest-api-architectural-constraints/)
