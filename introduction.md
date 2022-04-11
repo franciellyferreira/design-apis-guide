@@ -1,5 +1,7 @@
 # Guia para Design de APIs
 
+[ voltar para menu principal ](index.md)
+
 ## Introdução
 
 
@@ -41,6 +43,9 @@ Os desenvolvedores consideram o REST uma alternativa mais simples ao SOAP, que r
 
 As APIs da web que estão de acordo com as restrições da arquitetura REST são chamadas de APIs RESTful. Essas APIs usam solicitações HTTP (verbos) para trabalhar com os recursos, por exemplo, GET, POST, PUT, DELETE, etc, além de suportarem mensagens em diversos formatos como HTML, YAML, XML e JSON, sendo o último o mais comumente utilizado.
 
+[ voltar para menu principal ](index.md)
+
+[ ir para próximo tópico -> REST and RESTful]()
 
 Referências:
 
