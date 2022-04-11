@@ -9,10 +9,16 @@ Interface de programação de aplicativos, ou APIs, permite que as empresas abra
 
 Um dos benefícios é a facilidade de uso, já que os desenvolvedores não precisam saber como a API é implementada, eles simplesmente usam para se comunicarem com outros produtos e serviços.
 
-O uso das APIs aumentou exponencialmente nas últimas décadas e muitos aplicativos da web populares não seriam possíveis sem elas.
+O uso das APIs aumentou exponencialmente nas últimas décadas e muitos aplicativos da web populares não seriam possíveis sem elas. [^1]
 
 <p align="center">
+  Diagrama - Exemplo Arquitetura de APIs
+</p>
+<p align="center">
   <img src="images/api-diagram.png">
+</p>
+<p align="center">
+  <sup><sub>Fonte: Autoria própria</sub></sup>
 </p>
 
 ### Alguns exemplos de APIs
@@ -32,11 +38,11 @@ O objetivo das especificações e protocolos de APIs é padronizar a troca de da
 
 #### SOAP
 
-Este protocolo foi desenvolvido pela Microsoft e segundo glossário [^1] disponibilizado pela empresa, pode-se definir SOAP como um protocolo leve para troca de informações estruturadas em um ambiente descentralizado e distribuído. Ele usa o XML para definir uma estrutura de mensagens extensível, que fornece uma construção de mensagem que pode ser trocada por uma variedade de protocolos subjacentes. A estrutura foi projetada para ser independente de qualquer modelo de programação específico e outras semânticas específicas de implementação.
+Este protocolo foi desenvolvido pela Microsoft e segundo glossário [^2] disponibilizado pela empresa, pode-se definir SOAP como um protocolo leve para troca de informações estruturadas em um ambiente descentralizado e distribuído. Ele usa o XML para definir uma estrutura de mensagens extensível, que fornece uma construção de mensagem que pode ser trocada por uma variedade de protocolos subjacentes. A estrutura foi projetada para ser independente de qualquer modelo de programação específico e outras semânticas específicas de implementação. [^3]
 
 #### REST
 
-O termo REST foi criado pelo cientista da computação Roy Fielding e ao contrário do SOAP, o REST é um estilo de arquitetura de software com seis restrições [^2] para construção de aplicativos que funcionam sobre o protocolo HTTP, geralmente serviços web.
+O termo REST foi criado pelo cientista da computação Roy Fielding e ao contrário do SOAP, o REST é um estilo de arquitetura de software com seis restrições [^4] para construção de aplicativos que funcionam sobre o protocolo HTTP, geralmente serviços web.
 
 Os desenvolvedores consideram o REST uma alternativa mais simples ao SOAP, que requer escrever muito código para completar uma tarefa e seguir a estrutura XML para cada mensagem enviada. O REST segue uma lógica mais simples, pois disponibiliza os dados como recursos, cada recurso é representado por uma URL única e pode-se solicitar esse recurso fornecendo sua URL.
 
@@ -48,7 +54,7 @@ As APIs da web que estão de acordo com as restrições da arquitetura REST são
 
 Referências:
 
-[^1]: [Microsoft Docs Glossary](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-wusp/5daaa9d9-26aa-42fc-a431-c011166dc58f)
-[^2]: [REST API Architectural Constraints](https://www.geeksforgeeks.org/rest-api-architectural-constraints/)
-
-
+[^1]: [IBM - What is an Application Programming Interface - API](https://www.ibm.com/cloud/learn/api)
+[^2]: [Microsoft - Docs Glossary](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-wusp/5daaa9d9-26aa-42fc-a431-c011166dc58f)
+[^3]: [Altexsoft - What is API: Definition, Types, Specifications, Documentation](https://www.altexsoft.com/blog/engineering/what-is-api-definition-types-specifications-documentation/)
+[^4]: [Geeks For Geeks - REST API Architectural Constraints](https://www.geeksforgeeks.org/rest-api-architectural-constraints/)
