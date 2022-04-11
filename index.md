@@ -8,8 +8,8 @@
   - [Especificações e protocolos de APIs](introduction.md#especificações-e-protocolos-de-apis)
     - [SOAP](introduction.md#soap)
     - [REST](introduction.md#rest)
-- REST e RESTful
 - [Design First](design-first.md)
+- REST e RESTful
 - Verbos HTTP
 - URLs
 - Parâmetros
