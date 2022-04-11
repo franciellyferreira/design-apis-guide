@@ -1,7 +1,5 @@
 # Guia para Design de APIs
 
-[⬅️ voltar para menu](index.md)
-
 ## Introdução
 
 
