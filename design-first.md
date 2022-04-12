@@ -20,7 +20,7 @@ Primeiro código, é uma abordagem mais tradicional e com ela propõe-se desenvo
 
 [⬅️ voltar para menu](index.md)
 
-[➡️ próximo tópico REST and RESTful]()
+[➡️ próximo tópico Verbos HTTP]()
 
 Referências:
 
