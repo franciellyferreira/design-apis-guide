@@ -9,7 +9,6 @@
     - [SOAP](introduction.md#soap)
     - [REST](introduction.md#rest)
 - [Design First](design-first.md)
-- REST e RESTful
 - Verbos HTTP
 - URLs
 - Parâmetros
