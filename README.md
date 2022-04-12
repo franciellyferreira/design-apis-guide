@@ -4,5 +4,4 @@ Esse projeto referencial está sendo desenvolvido como projeto aplicado do MBA e
 
 Pretende-se criar um guia para design de APIs, que seja prático, atualizado e que possa contribuir no dia a dia de estudantes e desenvolvedores de software.
 
-
-Acesse o site deste projeto: https://franciellyferreira.github.io/design-apis-guide/
+[explore](index.md) • [acesse o site](https://franciellyferreira.github.io/design-apis-guide/)
