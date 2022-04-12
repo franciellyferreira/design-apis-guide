@@ -48,6 +48,10 @@ Os desenvolvedores consideram o REST uma alternativa mais simples ao SOAP, que r
 
 As APIs da web que estão de acordo com as restrições da arquitetura REST são chamadas de APIs RESTful. Essas APIs usam solicitações HTTP (verbos) para trabalhar com os recursos, por exemplo, GET, POST, PUT, DELETE, etc, além de suportarem mensagens em diversos formatos como HTML, YAML, XML e JSON, sendo o último o mais comumente utilizado.
 
+> O que é uma API RESTful? São aplicações que implementam os padrões e restrições da arquitetura de software REST.
+
+Para mais informações sobre o REST leia a tese de doutorado de Roy Fielding [^5]
+
 [⬅️ voltar para menu](index.md)
 
 [➡️ próximo tópico API First ou Design First](design-first.md)
@@ -58,3 +62,4 @@ Referências:
 [^2]: [Microsoft - Docs Glossary](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-wusp/5daaa9d9-26aa-42fc-a431-c011166dc58f)
 [^3]: [Altexsoft - What is API: Definition, Types, Specifications, Documentation](https://www.altexsoft.com/blog/engineering/what-is-api-definition-types-specifications-documentation/)
 [^4]: [Geeks For Geeks - REST API Architectural Constraints](https://www.geeksforgeeks.org/rest-api-architectural-constraints/)
+[^5]: [Roy Fielding - Chapter 5 - Representational State Transfer (REST)](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
