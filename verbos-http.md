@@ -10,20 +10,24 @@ Entre os príncípios para a construção de APIs REST, esta a criação de recu
 
 Cada um deles implementa uma semântica diferente, mas alguns recursos são compartilhados por um grupo deles, como por exemplo, qualquer método de requisição pode ser do tipo _safe_, _idempotent_ ou _cacheable_. [^3]
 
+<br>
 
 Verbo HTTP | Safe | Idempotent | Cacheable
 --- | --- | --- | ---
 GET | ✔️ | ✔️ | ✔️
 HEAD | ✔️ | ✔️ | ✔️
-OPTIONS | ✔️ | ✔️ | :x:
-TRACE | :x: | ✔️ | :x:
-PUT | :x: | ✔️ | :x:
-DELETE | :x: | ✔️ | :x:
-POST | :x: | :x: | *
-PATCH | :x: | :x: | :x:
-CONNECT | :x: | :x: | :x:
+OPTIONS | ✔️ | ✔️ | -
+TRACE | - | ✔️ | -
+PUT | - | ✔️ | -
+DELETE | - | ✔️ | -
+POST | - | - | *
+PATCH | - | - | -
+CONNECT | - | - | -
 
-(*) Somente se as informações de atualização estiverem incluídas
+[*] Somente se as informações de atualização estiverem incluídas
+
+<br>
+
 
 
 
