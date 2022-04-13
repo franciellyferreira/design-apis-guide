@@ -18,9 +18,13 @@ Desenvolver APIs antes de tudo, envolve a construção de produtos consistentes 
 
 Primeiro código, é uma abordagem mais tradicional e com ela propõe-se desenvolver o código logo após a definição dos requisitos de negócio. Essa abordagem ainda é utilizada hoje em dia, principalmente para projetos internos em que é necessário desenvolver rapidamente os requisitos de negócio e somente depois é gerada uma documentação. [^2]
 
+<br><br>
+
 [⬅️ voltar para menu](index.md)
 
 [➡️ próximo tópico Verbos HTTP](http-verbs.md)
+
+<br><br>
 
 Referências:
 
