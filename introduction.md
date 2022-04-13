@@ -52,9 +52,13 @@ As APIs da web que estão de acordo com as restrições da arquitetura REST são
 
 Para mais informações sobre o REST leia a tese de doutorado de Roy Fielding [^5]
 
+<br><br>
+
 [⬅️ voltar para menu](index.md)
 
 [➡️ próximo tópico API First ou Design First](design-first.md)
+
+<br><br>
 
 Referências:
 
