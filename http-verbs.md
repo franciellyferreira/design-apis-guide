@@ -77,10 +77,17 @@ A diferença entre o PUT e o POST é que o PUT é idempotente, ou seja, chama-lo
 - Requisição tem corpo
 - Resposta bem sucedida tem corpo
 
-
 ### PATCH
 
+O verbo PATCH é utilizado para realizar atualizações parciais em um recurso. [^14]
+- Requisição tem corpo
+- Resposta bem sucedida tem corpo
+
 ### CONNECT
+
+O verbo CONNECT começa a comunicação bidirecional com o recurso solicitado. Ele pode ser usado para abrir um túnel. [^15]
+- Requisição tem corpo
+- Resposta bem sucedida tem corpo
 
 <br><br>
 
