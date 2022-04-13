@@ -7,7 +7,7 @@
     - [SOAP](introduction.md#soap)
     - [REST](introduction.md#rest)
 - [API First ou Design First](design-first.md)
-- Verbos HTTP
+- [Verbos HTTP](http-verbs.md)
 - URLs
 - Parâmetros
 - Contratos
