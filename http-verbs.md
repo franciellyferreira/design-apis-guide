@@ -24,12 +24,9 @@ POST | - | - | *
 PATCH | - | - | -
 CONNECT | - | - | -
 
-[*] Somente se as informações de atualização estiverem incluídas
+[*] _Somente se as informações de atualização estiverem incluídas_ [^3]
 
 <br>
-
-
-
 
 [^1]: [Roy Fielding - CHAPTER 6 - 6.1 Standardizing the Web](https://www.ics.uci.edu/~fielding/pubs/dissertation/evaluation.htm)
 [^2]: [API RESTful - Boas práticas](https://www.brunobrito.net.br/api-restful-boas-praticas/)
