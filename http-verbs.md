@@ -60,15 +60,35 @@ O verbo TRACE é utilizado para fazer debug para o recurso de destino, ele reali
 
 ### PUT
 
+O verbo PUT é utilizado para atualizar um recurso ou substitui a representação do recurso com novos dados (atualizada todas as informações). [^11]
+- Requisição tem um corpo
+- Resposta bem sucedida não tem um corpo
+
 ### DELETE
 
+O verbo DELETE é utilizado para remover um recurso específico. [^12]
+- Requisição talvez tenha corpo
+- Resposta bem sucedida talvez tenha corpo
+
 ### POST
+
+O verbo POST é utilizado para enviar os dados para ser criado um novo recurso. O tipo de corpo da requisição deve ser especificado no cabeçalho _Content-Type_, por exemplo, `Content-Type: application/json`.
+A diferença entre o PUT e o POST é que o PUT é idempotente, ou seja, chama-lo diversas vezes vai ter o mesmo resultado, enquanto chamar o POST diversas vezes pode ocasionar a criação de diversos recursos, como por exemplo, criar várias ordens de pagamento. [^13]
+- Requisição tem corpo
+- Resposta bem sucedida tem corpo
+
 
 ### PATCH
 
 ### CONNECT
 
-<br>
+<br><br>
+
+[⬅️ voltar para menu](index.md)
+
+[➡️ próximo tópico URLs]()
+
+<br><br>
 
 Referências:
 
@@ -82,3 +102,8 @@ Referências:
 [^8]: [Mozzila - HEAD](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/HEAD)
 [^9]: [Mozzila - OPTIONS](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/OPTIONS)
 [^10]: [Mozzila - TRACE](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/TRACE)
+[^11]: [Mozilla - PUT](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/PUT)
+[^12]: [Mozzila - DELETE](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/DELETE)
+[^13]: [Mozilla - POST](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/POST)
+[^14]: [Mozzila - PATCH](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/PATCH)
+[^15]: [Mozzila - CONNECT](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/CONNECT)
