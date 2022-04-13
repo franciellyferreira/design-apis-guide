@@ -37,8 +37,25 @@ PUT | /events/12/tickets/5 | Atualiza o ingresso #5 para o evento #12
 PATCH | /events/12/tickets/5 | Atualiza parcialmente o ingresso #5 para o evento #12
 DELETE | /events/12/tickets/5 | Exclui o ingresso #5 do evento #12
 
+<br>
+
+**E as ações que não se encaixam no mundo CRUD?**
+
+É neste ponto, onde muitas coisas acabam ficando confusas no planejamento da API, para isso existe várias abordagens:
+
+- Reestruturar a ação para que se pareça com o campo de um recurso, isso funciona se a ação não receber parâmetros, por exemplo, ação de ativação pode ser mapeada para um campo booleano _activated_ e atualizada utilizando um PATCH para o recurso.
+- Outra possibilidade é tratar como um sub-recurso com os princípios REST, por exemplo, `PUT /events/12/favorite` e `DELETE /events/12/favorite` [^2].
+- Contudo em alguns casos, não é possível mapear a ação para uma estrutura REST sensata, por exemplo, fazer uma pesquisa em diversos recursos, neste caso utilizar a URL `/search` faria mais sentido, mesmo não sendo um recurso. Recomeda-se em casos como esse apostar em uma boa documentação e deixar claro para os consumidores da API essa escolha, para evitar confusão.
+
+<br><br>
+
+[⬅️ voltar para menu](index.md)
+
+[➡️ próximo tópico Parâmetros]()
+
 <br><br>
 
 Referências:
 
 [^1]: [Best Practices for Designing a Pragmatic RESTful API - Use RESTful URLs and actions](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#restful)
+[^2]: [Github - Docs - Star a Gist](https://docs.github.com/pt/rest/reference/gists#star-a-gist)
