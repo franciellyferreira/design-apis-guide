@@ -10,6 +10,12 @@ Entre os príncípios para a construção de APIs REST, esta a criação de recu
 
 Cada um deles implementa uma semântica diferente, mas alguns recursos são compartilhados por um grupo deles, como por exemplo, qualquer método de requisição pode ser do tipo _safe_, _idempotent_ ou _cacheable_. [^3]
 
+**_Safe_**: um verbo HTTP é seguro se ele não altera o estado do recurso, ou seja, um verbo seguro leva a uma operação de somente leitura. Todos os métodos seguros também são idempotentes, porém nem todos idempotentes são seguros. [^4]
+
+**_Idempotent_**: um verbo HTTP é idempotente se uma requisição idêntica pode ser feita uma ou mais vezes em sequência com o mesmo efeito enquanto deixa o recurso no mesmo estado. [^5]
+
+**_Cacheable_**: um verbo HTTP armazenável em cache é uma resposta que pode ser cacheada. Nem todas as respostas HTTP podem ser cacheadas, para esses casos permite-se a indicação no cabeçalho da requisição. [^6]
+
 <br>
 
 Verbo HTTP | Safe | Idempotent | Cacheable
@@ -28,6 +34,36 @@ CONNECT | - | - | -
 
 <br>
 
+### GET
+
+Requisições utilizando verbos GET solicita um recurso específicado, além disso, essas requisições só devem recuperar dados. [^7]
+- Requisição não tem corpo
+- Resposta bem-sucedida tem corpo
+
+### HEAD
+
+### OPTIONS
+
+### TRACE
+
+### PUT
+
+### DELETE
+
+### POST
+
+### PATCH
+
+### CONNECT
+
+<br>
+
+Referências:
+
 [^1]: [Roy Fielding - CHAPTER 6 - 6.1 Standardizing the Web](https://www.ics.uci.edu/~fielding/pubs/dissertation/evaluation.htm)
 [^2]: [API RESTful - Boas práticas](https://www.brunobrito.net.br/api-restful-boas-praticas/)
 [^3]: [Mozilla - Métodos de requisição HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods)
+[^4]: [Mozilla - Glossário - Seguro](https://developer.mozilla.org/pt-BR/docs/Glossary/safe)
+[^5]: [Mozilla - Glossário - Idempotente](https://developer.mozilla.org/pt-BR/docs/Glossary/Idempotent)
+[^6]: [Mozilla - Glossário - Cacheable](https://developer.mozilla.org/en-US/docs/Glossary/cacheable)
+[^7]: [Mozilla - GET](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/GET)
