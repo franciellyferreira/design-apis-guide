@@ -42,9 +42,21 @@ Requisições utilizando verbos GET solicita um recurso específicado, além dis
 
 ### HEAD
 
+O verbo HEAD solicita os cabeçalhos retornados de um recurso específico que foi requisitado por um verbo HTTP. Este tipo de solicitação pode ser realizada antes de baixar um recurso muito grande para economizar largura de banda. [^8]
+- Requisição não tem um corpo
+- Resposta bem sucedida não tem um corpo
+
 ### OPTIONS
 
+O verbo OPTIONS é utilizado para que um cliente possa descobrir quais as opções de requisição são permitidas para um determinado recurso do servidor.[^9]
+- Requisição não tem um corpo
+- Resposta bem sucedida não tem um corpo
+
 ### TRACE
+
+O verbo TRACE é utilizado para fazer debug para o recurso de destino, ele realiza um teste de loopback enviando uma mensagem por todo o caminho até o recurso alvo no qual foi destinado. O destinatário deve responder a mensagem, removendo alguns campos e devolvendo HTTP Status Code 200 e o cabeçalho necessário. [^10]
+- Requisição não tem um corpo
+- Resposta bem sucedida não tem um corpo
 
 ### PUT
 
@@ -67,3 +79,6 @@ Referências:
 [^5]: [Mozilla - Glossário - Idempotente](https://developer.mozilla.org/pt-BR/docs/Glossary/Idempotent)
 [^6]: [Mozilla - Glossário - Cacheable](https://developer.mozilla.org/en-US/docs/Glossary/cacheable)
 [^7]: [Mozilla - GET](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/GET)
+[^8]: [Mozzila - HEAD](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/HEAD)
+[^9]: [Mozzila - OPTIONS](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/OPTIONS)
+[^10]: [Mozzila - TRACE](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/TRACE)
