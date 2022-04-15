@@ -68,7 +68,7 @@ Busca usuários ordernados pelo primeiro nome em ordem ascendente e pela idade e
 GET /users?sort=first_name:asc,age:desc
 ```
 
-## Paginação
+## Paginação [^3]
 
 
 
@@ -77,4 +77,5 @@ GET /users?sort=first_name:asc,age:desc
 Referências:
 
 [^1]: [API RESTful - Boas práticas](https://www.brunobrito.net.br/api-restful-boas-praticas/)
-[^2]: [REST API: Sorting, Filtering, and Pagination](https://www.taniarascia.com/rest-api-sorting-filtering-pagination/#sorting)
+[^2]: [REST API - Sorting](https://www.taniarascia.com/rest-api-sorting-filtering-pagination/#sorting)
+[^3]: [REST API - Pagination](https://www.taniarascia.com/rest-api-sorting-filtering-pagination/#pagination)
