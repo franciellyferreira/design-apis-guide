@@ -9,7 +9,7 @@
 - [API First ou Design First](design-first.md)
 - [Verbos HTTP](http-verbs.md)
 - [URLs](urls.md)
-- Parâmetros
+- [Parâmetros](parameters.md)
 - Contratos
 - Logs
 - Versionamento
