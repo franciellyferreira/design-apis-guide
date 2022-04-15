@@ -2,7 +2,7 @@
 
 ## Parâmetros
 
-Para relizar pesquisas nos recursos utilize o [verbo HTTP GET](http-verbs.md#get) e utilize os parâmetros como filtros.[^1]
+Para realizar pesquisas nos recursos utilize o [verbo HTTP GET](http-verbs.md#get) e utilize os parâmetros como filtros. [^1]
 
 Busca todos os usuários
 
@@ -16,10 +16,16 @@ Busca o usuário único pelo id
 GET /users/{id}
 ```
 
-Busca todos os usuário ativos e que tem mais que 30 anos de idade
+Busca todos os usuários ativos e que tem mais que 30 anos de idade
 
 ```
 GET /users?status=active&older_than=30
+```
+
+Busca todos os usuários ativos e que moram no Brasil e na Argentina
+
+```
+GET /users?status=active&lives_in=[brazil,argentina]
 ```
 
 ## Pesquisa avançada
@@ -38,7 +44,25 @@ Essa consulta pode ser traduzida utilizando `alias` para:
 GET /users/young-brazilians
 ```
 
-## Ordenação
+## Ordenação [^2]
+
+A ordenação permite ordernar os recursos nas ordens ascendente ou descendente.
+
+*Coluna única*
+
+Busca usuários ordenados pelo primeiro nome em ordem ascendente (a -> z)
+
+```
+GET /users?sort_by=first_name&order=asc
+```
+
+*Múltiplas colunas*
+
+Busca usuários ordernados pelo primeiro nome em ordem ascendente e pela idade em ordem descendente
+
+```
+GET /users?sort=first_name:asc,age:desc
+```
 
 ## Paginação
 
@@ -47,3 +71,4 @@ GET /users/young-brazilians
 Referências:
 
 [^1]: [API RESTful - Boas práticas](https://www.brunobrito.net.br/api-restful-boas-praticas/)
+[^2]: [REST API: Sorting, Filtering, and Pagination](https://www.taniarascia.com/rest-api-sorting-filtering-pagination/#sorting)
