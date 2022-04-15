@@ -1,8 +1,8 @@
 # Guia para Design de APIs
 
-## Parâmetros
+## Parâmetros [^1]
 
-Para realizar pesquisas nos recursos utilize o [verbo HTTP GET](http-verbs.md#get) e utilize os parâmetros como filtros. [^1]
+Para realizar pesquisas nos recursos utilize o [verbo HTTP GET](http-verbs.md#get) e utilize os parâmetros como filtros.
 
 Busca todos os usuários
 
@@ -28,7 +28,7 @@ Busca todos os usuários ativos e que moram no Brasil e na Argentina
 GET /users?status=active&lives_in=[brazil,argentina]
 ```
 
-## Pesquisa avançada
+## Pesquisa avançada [^1]
 
 Em alguns cenários pode ser que a pesquisa se torne muito complexa, com muitos parâmetros, neste caso recomenda-se utilizar `alias`.
 
@@ -69,6 +69,8 @@ GET /users?sort=first_name:asc,age:desc
 ```
 
 ## Paginação
+
+
 
 <br><br>
 
