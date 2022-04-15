@@ -51,7 +51,7 @@ DELETE | /events/12/tickets/5 | Exclui o ingresso #5 do evento #12
 
 [⬅️ voltar para menu](index.md)
 
-[➡️ próximo tópico Parâmetros]()
+[➡️ próximo tópico Parâmetros](parameters.md)
 
 <br><br>
 
