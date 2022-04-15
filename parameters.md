@@ -46,9 +46,11 @@ GET /users/young-brazilians
 
 ## Ordenação [^2]
 
-A ordenação permite ordernar os recursos nas ordens ascendente ou descendente.
+A ordenação permite ordenar os recursos por campo, nas ordens ascendente ou descendente
 
-*Coluna única*
+**Coluna única**
+
+Se for necessário ordenar apenas um campo você pode indica-lo no parâmetro `sort_by` e o tipo de ordenação em `order`.
 
 Busca usuários ordenados pelo primeiro nome em ordem ascendente (a -> z)
 
@@ -56,7 +58,9 @@ Busca usuários ordenados pelo primeiro nome em ordem ascendente (a -> z)
 GET /users?sort_by=first_name&order=asc
 ```
 
-*Múltiplas colunas*
+**Múltiplas colunas**
+
+Se for necessário ordernar diversos campos você pode separar por vírgula cada par _coluna:ordem_ e indica-lo no parâmetro `sort`.
 
 Busca usuários ordernados pelo primeiro nome em ordem ascendente e pela idade em ordem descendente
 
