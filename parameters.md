@@ -68,9 +68,28 @@ Busca usuários ordernados pelo primeiro nome em ordem ascendente e pela idade e
 GET /users?sort=first_name:asc,age:desc
 ```
 
-## Paginação [^3]
+## Paginação
+
+Utiliza-se para paginar os recursos retornados e evitar que o volume alto de registros sobrecarregue a busca causando timeout, portanto recomenda-se que os serviços que retornam uma grande quantidade de recursos sejam construídos com paginação. A paginação possui dois parâmetros que devem ser implementados: página (page) e resultados por página (size). [^3]
 
 
+Busca usuários e retorna a página 3 com 20 registros
+
+```
+GET /users?page=3&size=20
+```
+
+Os parâmetros podem mudar de acordo com a implementação adotada pela sua API, normalmente encontra-se parâmetros de paginação nas seguintes nomenclaturas [^4]:
+- _page and size_
+- _offset and limit_
+- _page and pagesize_
+- entre outros. 
+
+<br><br>
+
+[⬅️ voltar para menu](index.md)
+
+[➡️ próximo tópico Contratos]()
 
 <br><br>
 
@@ -79,3 +98,4 @@ Referências:
 [^1]: [API RESTful - Boas práticas](https://www.brunobrito.net.br/api-restful-boas-praticas/)
 [^2]: [REST API - Sorting](https://www.taniarascia.com/rest-api-sorting-filtering-pagination/#sorting)
 [^3]: [REST API - Pagination](https://www.taniarascia.com/rest-api-sorting-filtering-pagination/#pagination)
+[^4]: [Sensedia - Boas práticas: Paginação e filtros](https://br.sensedia.com/post/api-pagination-and-filters)
