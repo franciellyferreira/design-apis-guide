@@ -23,6 +23,11 @@
   - [Ordenação](parameters.md#ordenação-2)
   - [Paginação](parameters.md#paginação) 
 - [HTTP: Status Code](http-status-code.md)
+  - [1xx - Informativo](http-status-code.md#1xx---informativo)
+  - [2xx - Sucesso](http-status-code.md#2xx---sucesso)
+  - [3xx - Redirecionamento](http-status-code.md#3xx---redirecionamento)
+  - [4xx - Erro do cliente](http-status-code.md#4xx---erro-do-cliente)
+  - [5xx - Erro do servidor](http-status-code.md#5xx---erro-do-servidor)
 - Contratos
 - Versionamento
 - Segurança
