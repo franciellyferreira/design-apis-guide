@@ -2,7 +2,7 @@
 
 ## HTTP: Status Code
 
-Como citamos no tópico de [introdução](introduction.md#rest) as APIs REST operaram sobre o protocolo HTTP. A transferência de dados entre cliente e servidor roda em cima do protocoloco HTTP, onde o cliente solicita ao final de cada requisição o código de estado da requisição, este código é composto por três números [^1]. Segue alguns códigos de estado retirados diretamente do site do Mozilla [^2]:
+Como citamos no tópico de [introdução](introduction.md#rest) as APIs REST operaram sobre o protocolo HTTP. A transferência de dados entre cliente e servidor roda em cima do protocoloco HTTP, onde o cliente solicita ao final de cada requisição o código de estado da requisição, este código é composto por três números [^1]. Segue abaixo alguns códigos de estado retirados diretamente do site do Mozilla [^2]:
 
 ### 1xx - Informativo
 
