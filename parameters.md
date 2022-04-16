@@ -28,7 +28,7 @@ Busca todos os usuários ativos e que moram no Brasil e na Argentina
 GET /users?status=active&lives_in=[brazil,argentina]
 ```
 
-## Pesquisa avançada [^1]
+### Pesquisa avançada [^1]
 
 Em alguns cenários pode ser que a pesquisa se torne muito complexa, com muitos parâmetros, neste caso recomenda-se utilizar `alias`.
 
@@ -44,7 +44,7 @@ Essa consulta pode ser traduzida utilizando `alias` para:
 GET /users/young-brazilians
 ```
 
-## Ordenação [^2]
+### Ordenação [^2]
 
 A ordenação permite ordenar os recursos por campo, nas ordens ascendente ou descendente
 
@@ -68,7 +68,7 @@ Busca usuários ordernados pelo primeiro nome em ordem ascendente e pela idade e
 GET /users?sort=first_name:asc,age:desc
 ```
 
-## Paginação
+### Paginação
 
 Utiliza-se para paginar os recursos retornados e evitar que o volume alto de registros sobrecarregue a busca causando timeout, portanto recomenda-se que os serviços que retornam uma grande quantidade de recursos sejam construídos com paginação. A paginação possui dois parâmetros que devem ser implementados: página (page) e resultados por página (size). [^3]
 
