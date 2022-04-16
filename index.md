@@ -24,9 +24,8 @@
   - [Paginação](parameters.md#paginação) 
 - [HTTP: Status Code](http-status-code.md)
 - Contratos
-- Logs
 - Versionamento
 - Segurança
 - Tratamento de Erros
-- Erros HTTP
+- Logs
 - Documentação
