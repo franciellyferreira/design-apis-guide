@@ -8,13 +8,13 @@
 
 <br>
 
-Entre os príncípios para a construção de APIs REST, esta a criação de recursos que tenham uma URI única que será usada para identifica-los. Esses recursos podem ser manipulados utilizando requisições HTTP [^2], essas requisições utilizam os famosos Verbos HTTP.
+Entre os príncípios para a construção de APIs REST, está a criação de recursos que tenham uma URI única que será usada para identifica-los. Esses recursos podem ser manipulados utilizando requisições HTTP [^2], essas requisições utilizam os famosos Verbos HTTP.
 
 Cada um deles implementa uma semântica diferente, mas alguns recursos são compartilhados por um grupo deles, como por exemplo, qualquer método de requisição pode ser do tipo _safe_, _idempotent_ ou _cacheable_. [^3]
 
 **_Safe_**: um verbo HTTP é seguro se ele não altera o estado do recurso, ou seja, um verbo seguro leva a uma operação de somente leitura. Todos os métodos seguros também são idempotentes, porém nem todos idempotentes são seguros. [^4]
 
-**_Idempotent_**: um verbo HTTP é idempotente se uma requisição idêntica pode ser feita uma ou mais vezes em sequência com o mesmo efeito enquanto deixa o recurso no mesmo estado. [^5]
+**_Idempotent_**: um verbo HTTP é idempotente se uma requisição idêntica pode ser feita uma ou mais vezes em sequência, com o mesmo efeito enquanto deixa o recurso no mesmo estado. [^5]
 
 **_Cacheable_**: um verbo HTTP armazenável em cache é uma resposta que pode ser cacheada. Nem todas as respostas HTTP podem ser cacheadas, para esses casos permite-se a indicação no cabeçalho da requisição. [^6]
 
