@@ -1,6 +1,8 @@
 # Guia para Design de APIs
 
-## Verbos HTTP
+## HTTP: Verbos
+
+<br>
 
 > A motivação para o desenvolvimento do REST foi criar um modelo de arquitetura de como a web deveria funcionar. - Roy Fielding [^1]
 
