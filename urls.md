@@ -2,7 +2,7 @@
 
 ## URLs
 
-Conforme citado no tópico de [verbos HTTP](http-verbs.md), as URLS fazem parte dos princípios da construção de APIs REST. As URLs são responsáveis por referenciar a identificação do recurso dentro da sua API. Recomenda-se seguir alguns padrão para o design dessas URLs:
+Conforme citado no tópico de [verbos HTTP](http-verbs.md), as URLS fazem parte dos princípios da construção de APIs REST. As URLs são responsáveis por referenciar a identificação do recurso dentro da sua API. Recomenda-se seguir alguns padrões para o design dessas URLs:
 
 - As URLS devem ser substantivos e não verbos.
 - Use substantivos no plural apenas para consistência (não utilizar substantivos no singular).
@@ -41,7 +41,7 @@ DELETE | /events/12/tickets/5 | Exclui o ingresso #5 do evento #12
 
 **E as ações que não se encaixam no mundo CRUD?**
 
-É neste ponto, onde muitas coisas acabam ficando confusas no planejamento da API, para isso existe várias abordagens:
+É neste ponto, onde muitas coisas acabam ficando confusas no planejamento da API, para isso existem várias abordagens:
 
 - Reestruturar a ação para que se pareça com o campo de um recurso, isso funciona se a ação não receber parâmetros, por exemplo, ação de ativação pode ser mapeada para um campo booleano _activated_ e atualizada utilizando um PATCH para o recurso.
 - Outra possibilidade é tratar como um sub-recurso com os princípios REST, por exemplo, `PUT /events/12/favorite` e `DELETE /events/12/favorite` [^2].
