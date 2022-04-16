@@ -7,7 +7,7 @@
     - [SOAP](introduction.md#soap)
     - [REST](introduction.md#rest)
 - [API First ou Design First](design-first.md)
-- [Verbos HTTP](http-verbs.md)
+- [HTTP: Verbos](http-verbs.md)
   - [GET](http-verbs.md#get)
   - [HEAD](http-verbs.md#head)
   - [OPTIONS](http-verbs.md#options)
@@ -16,12 +16,13 @@
   - [DELETE](http-verbs.md#delete)
   - [POST](http-verbs.md#post)
   - [PATCH](http-verbs.md#patch)
-  - [CONNECT](http-verbs.md#connect) 
+  - [CONNECT](http-verbs.md#connect)
 - [URLs](urls.md)
 - [Parâmetros](parameters.md)
   - [Pesquisa avançada](parameters.md#pesquisa-avançada-1)
   - [Ordenação](parameters.md#ordenação-2)
   - [Paginação](parameters.md#paginação) 
+- [HTTP: Status Code](http-status-code.md)
 - Contratos
 - Logs
 - Versionamento
