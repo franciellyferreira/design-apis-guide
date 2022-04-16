@@ -5,9 +5,9 @@
 
 ### O que são as APIs?
 
-Interface de programação de aplicativos, ou APIs, permite que as empresas abram os dados e funcionalidades de seus aplicativos para desenvolvedores externos, parceiros de negócios e departamentos internos, permitindo que serviços e produtos se comuniquem e aproveitem os dados e funcionalidades uns dos outros por meio de um interface documentada.
+Interface de programação de aplicativos, ou APIs, permitem que as empresas abram os dados e funcionalidades de seus aplicativos para desenvolvedores externos, parceiros de negócios e departamentos internos, permitindo que serviços e produtos se comuniquem e aproveitem os dados e funcionalidades uns dos outros por meio de uma interface documentada.
 
-Um dos benefícios é a facilidade de uso, já que os desenvolvedores não precisam saber como a API é implementada, eles simplesmente usam para se comunicarem com outros produtos e serviços.
+Um dos benefícios é a facilidade de uso, já que os desenvolvedores não precisam saber como a API é implementada, eles simplesmente usam-na para se comunicarem com outros produtos e serviços.
 
 O uso das APIs aumentou exponencialmente nas últimas décadas e muitos aplicativos da web populares não seriam possíveis sem elas. [^1]
 
@@ -34,7 +34,7 @@ O uso das APIs aumentou exponencialmente nas últimas décadas e muitos aplicati
 
 ### Especificações e protocolos de APIs
 
-O objetivo das especificações e protocolos de APIs é padronizar a troca de dados entre diferentes serviços na web, ou seja, capacidade de diversos sistemas escritos em diferentes linguagens e executados em diferentes sistemas operacionais se comunicarem entre si.
+O objetivo das especificações e protocolos de APIs é padronizar a troca de dados entre diferentes serviços na web, ou seja, capacidade de diversos sistemas escritos em diferentes linguagens e executados em diferentes sistemas operacionais de se comunicarem entre si.
 
 #### SOAP
 
