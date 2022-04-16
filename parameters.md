@@ -89,7 +89,7 @@ Os parâmetros podem mudar de acordo com a implementação adotada pela sua API,
 
 [⬅️ voltar para menu](index.md)
 
-[➡️ próximo tópico Contratos]()
+[➡️ próximo tópico HTTP: Status Code](http-status-code.md)
 
 <br><br>
 
