@@ -4,7 +4,7 @@
 
 É uma abordagem de construção de APIs em primeiro lugar, ou seja, elas são pensadas antes mesmo de se escrever o código. Deste modo, tudo no projeto gira em torno da ideia de que o produto final, no caso as APIs, serão consumidas para aplicativos clientes como aplicações mobile e web, por exemplo.
 
-Desenvolver APIs antes de tudo, envolve a construção de produtos consistentes e reutilizáveis, com design dos contratos bem definidos para o comportamento que se espera. Estabelecer um contrato envolve gastar mais tempo pensando no design e também envolve planejamento e colaboração de outras partes interessadas, fornecendo feedback antes que qualquer código seja feito. [^1]
+Desenvolver APIs, antes de tudo, envolve a construção de produtos consistentes e reutilizáveis, com design dos contratos bem definidos para o comportamento que se espera. Estabelecer um contrato envolve gastar mais tempo pensando no design e também envolve planejamento e colaboração de outras partes interessadas, fornecendo feedback antes que qualquer código seja feito. [^1]
 
 ### Alguns benefícios
 
