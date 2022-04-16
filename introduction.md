@@ -7,7 +7,7 @@
 
 Interface de programação de aplicativos, ou APIs, permitem que as empresas abram os dados e funcionalidades de seus aplicativos para desenvolvedores externos, parceiros de negócios e departamentos internos, permitindo que serviços e produtos se comuniquem e aproveitem os dados e funcionalidades uns dos outros por meio de uma interface documentada.
 
-Um dos benefícios é a facilidade de uso, já que os desenvolvedores não precisam saber como a API é implementada, eles simplesmente usam-na para se comunicarem com outros produtos e serviços.
+Um dos benefícios é a facilidade de uso, já que os desenvolvedores não precisam saber como a API é implementada, eles simplesmente a utiizam para se comunicarem com outros produtos e serviços.
 
 O uso das APIs aumentou exponencialmente nas últimas décadas e muitos aplicativos da web populares não seriam possíveis sem elas. [^1]
 
