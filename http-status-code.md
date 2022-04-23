@@ -96,7 +96,7 @@ Código | Nome | Descrição
 
 [⬅️ voltar para menu](index.md)
 
-[➡️ próximo tópico Contratos]()
+[➡️ próximo tópico Contratos](contracts.md)
 
 <br><br>
 
