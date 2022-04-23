@@ -32,94 +32,80 @@ Vamos considerar o cenário em que teremos uma aplicação que exibirá a discog
 }
 ```
 
-<details>
-  <summary>POST - Criar cadastro de álbum</summary>
-  <br>
+**Criar cadastro de álbum**
 
-  - Verbo HTTP: POST
-  - URL: /artists/1/albums
-  - Formato: json
-  - Corpo da requisição:
-  ```
-  {
-    "name": "Heroes",
-    "year": 1977,
-    "image": "url-example-image-url"
-  }
-  ```
-  - Status Code HTTP da resposta: 201
-  - Corpo da resposta:
-  ```
-  {
-    "id": 1,
-    "name": "Heroes",
-    "year": 1977,
-    "image": "url-example-image-url"
-  }
-  ```
+- Verbo HTTP: POST
+- URL: /artists/1/albums
+- Formato: json
+- Corpo da requisição:
+```
+{
+  "name": "Heroes",
+  "year": 1977,
+  "image": "url-example-image-url"
+}
+```
+- Status Code HTTP da resposta: 201
+- Corpo da resposta:
+```
+{
+  "id": 1,
+  "name": "Heroes",
+  "year": 1977,
+  "image": "url-example-image-url"
+}
+```
 
-</details>
+**Criar cadastro de música**
 
+- Verbo HTTP: POST
+- URL: /artists/1/albums/1/songs
+- Formato: json
+- Corpo da requisição:
+```
+{
+  "name": "Beauty and the Beast",
+  "time": "03:36"
+}
+```
+- Status Code HTTP da resposta: 201
+- Corpo da resposta:
+```
+{
+  "id": 1,
+  "name": "Beauty and the Beast",
+  "time": "03:36"
+}
+```
 
-<details>
-  <summary>POST - Criar cadastro de música</summary>
-  <br>
+**Lista todos os álbuns do artista**
 
-  - Verbo HTTP: POST
-  - URL: /artists/1/albums/1/songs
-  - Formato: json
-  - Corpo da requisição:
-  ```
-  {
-    "name": "Beauty and the Beast",
-    "time": "03:36"
-  }
-  ```
-  - Status Code HTTP da resposta: 201
-  - Corpo da resposta:
-  ```
-  {
-    "id": 1,
-    "name": "Beauty and the Beast",
-    "time": "03:36"
-  }
-  ```
-
-</details>
-
-<details>
-  <summary>GET - Lista todos os álbuns do artista</summary>
-  <br>
-
-  - Verbo HTTP: GET
-  - URL: /artists/1/albums
-  - Formato: json
-  - Status Code HTTP da resposta: 200
-  - Corpo da resposta:
-  ```
-  {
-    "name": "David Bowie",
-    "image: "url-example-image-url",
-    "albums": [
-      {
-        "id": 1,
-        "name": "Heroes",
-        "year": 1977,
-        "image": "url-example-image-url",
-        "songs": [
-          {
-            "id": 1,
-            "name": "Beauty and the Beast",
-            "time": "03:36"
-          }
-        ]
-      }
-    ]
-  }
-  ```
-
-</details>
-
+- Verbo HTTP: GET
+- URL: /artists/1/albums
+- Formato: json
+- Status Code HTTP da resposta: 200
+- Corpo da resposta:
+```
+{
+  "name": "David Bowie",
+  "image: "url-example-image-url",
+  "albums": [
+    {
+      "id": 1,
+      "name": "Heroes",
+      "year": 1977,
+      "image": "url-example-image-url",
+      "songs": [
+        {
+          "id": 1,
+          "name": "Beauty and the Beast",
+          "time": "03:36"
+        }
+      ]
+    }
+  ]
+}
+```
 
 <br><br>
 
