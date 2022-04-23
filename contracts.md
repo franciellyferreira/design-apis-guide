@@ -20,7 +20,7 @@ Vamos considerar o cenário em que teremos uma aplicação que exibirá a discog
 ```
 {
     "name": "David Bowie",
-    "image: "url-example-image-url"
+    "image": "url-example-image-url"
 }
 ```
 - Status Code HTTP da resposta: 201
@@ -29,7 +29,7 @@ Vamos considerar o cenário em que teremos uma aplicação que exibirá a discog
 {
     "id": 1,
     "name": "David Bowie",
-    "image: "url-example-image-url"
+    "image": "url-example-image-url"
 }
 ```
 
