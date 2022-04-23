@@ -8,7 +8,7 @@ O contrato é definido pelos provedores de serviços e são criados destinados a
 
 ### Exemplo
 
-Vamos considerar o cenário em que teremos uma aplicação que exibirá a discografia de diversos artistas, neste caso pensou-se na criação de uma aplicação front-end e uma API responsável pelo back-end. Utilizando a metodologia [API First ou Desing First](desing-firts.md), optou-se por pensar e definir os contratos antes de iniciar o desenvolvimento da API. Segue abaixo alguns cenários para manipular o cadastro dos artistas, álbuns e músicas.
+Vamos considerar o cenário em que teremos uma aplicação que exibirá a discografia de diversos artistas, neste caso pensou-se na criação de uma aplicação front-end que consumirá uma API responsável pelo back-end. Utilizando a metodologia [API First ou Desing First](desing-firts.md), optou-se por pensar e definir os contratos da API antes de iniciar o seu desenvolvimento. Segue abaixo alguns cenários para manipular o cadastro dos artistas, álbuns e músicas:
 
 **Criar cadastro de artista**
 
