@@ -97,7 +97,7 @@ Vamos considerar o cenário em que teremos uma aplicação que exibirá a discog
 ```
 {
     "name": "David Bowie",
-    "image: "url-example-image-url",
+    "image": "url-example-image-url",
     "albums": [
         {
             "id": 1,
@@ -155,6 +155,9 @@ Vamos considerar o cenário em que teremos uma aplicação que exibirá a discog
 }
 ```
 
+<br>
+
+> **Dica** No exemplo acima, optamos pela troca de mensagem no formato json, para facilitar e validar se o payload criado está no formato correto você pode utilizar a ferramenta [JSON Formatter e Validator](https://jsonformatter.curiousconcept.com/).
 
 <br><br>
 
