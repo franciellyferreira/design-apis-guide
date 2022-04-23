@@ -33,10 +33,35 @@ Vamos considerar o cenário em que teremos uma aplicação que exibirá a discog
 }
 ```
 
-**Remover cadastro de artista**
+**Listar todos os artistas**
 
-- DELETE /artists/1
-- Status Code HTTP da resposta: 204
+- GET /artists
+- Formato: json
+- Status Code HTTP da resposta: 200
+- Corpo da resposta:
+```
+[
+    {
+        "id": 1,
+        "name": "David Bowie",
+        "image": "url-example-image-url"
+    },
+    ...
+]
+```
+
+**Listar o artista [1]**
+
+- GET /artists/1
+- Formato: json
+- Status Code HTTP da resposta: 200
+- Corpo da resposta:
+```
+{
+    "name": "David Bowie",
+    "image": "url-example-image-url"
+}
+```
 
 ### Contratos - Álbum
 
@@ -62,11 +87,6 @@ Vamos considerar o cenário em que teremos uma aplicação que exibirá a discog
     "image": "url-example-image-url"
 }
 ```
-
-**Remover cadastro de álbum**
-
-- DELETE /artists/1/albums/1
-- Status Code HTTP da resposta: 204
 
 **Listar todos os álbuns do artista**
 
@@ -113,11 +133,6 @@ Vamos considerar o cenário em que teremos uma aplicação que exibirá a discog
 }
 ```
 
-**Remover cadastro de canção**
-
-- DELETE /artists/1/albums/1/songs/1
-- Status Code HTTP da resposta: 204
-
 **Lista todas os canções do álbum do artista**
 
 - GET /artists/1/albums/1/songs
@@ -126,23 +141,16 @@ Vamos considerar o cenário em que teremos uma aplicação que exibirá a discog
 - Corpo da resposta:
 ```
 {
-    "name": "David Bowie",
-    "image: "url-example-image-url",
-    "albums": [
+    "name": "Heroes",
+    "year": 1977,
+    "image": "url-example-image-url",
+    "songs": [
         {
             "id": 1,
-            "name": "Heroes",
-            "year": 1977,
-            "image": "url-example-image-url",
-            "songs": [
-                {
-                    "id": 1,
-                    "name": "Beauty and the Beast",
-                    "time": "03:36"
-                },
-                ...
-            ]
-        }
+            "name": "Beauty and the Beast",
+            "time": "03:36"
+        },
+        ...
     ]
 }
 ```
