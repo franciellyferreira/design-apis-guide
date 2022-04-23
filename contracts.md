@@ -10,9 +10,6 @@ O contrato é definido pelos provedores de serviços e são criados destinados a
 
 Vamos considerar o cenário em que teremos uma aplicação que exibirá a discografia de diversos artistas, neste caso pensou-se na criação de uma aplicação front-end que consumirá uma API responsável pelo back-end. Utilizando a metodologia [API First ou Desing First](desing-firts.md), optou-se por pensar e definir os contratos da API antes de iniciar o seu desenvolvimento. Segue abaixo alguns cenários para manipular o cadastro dos artistas, álbuns e canções:
 
-<details><summary>Code example</summary><p>
-  ...
-</p></details>
 
 ### Contratos - Artista
 
@@ -66,6 +63,37 @@ Vamos considerar o cenário em que teremos uma aplicação que exibirá a discog
     "image": "url-example-image-url"
 }
 ```
+
+**Atualizar cadastro do artista**
+
+- PUT /artists/1
+- Formato: json
+- Corpo da requisição:
+```
+{
+    "name": "David Robert Jones",
+    "image": "url-example-image-url"
+}
+```
+- Status Code HTTP da resposta: 200
+- Corpo da resposta:
+```
+{
+    "name": "David Robert Jones",
+    "image": "url-example-image-url"
+}
+```
+
+**Remover cadastro do artista**
+
+- DELETE /artists/1
+- Formato: json
+- Status Code HTTP da resposta: 202
+- Corpo da resposta:
+```
+```
+
+
 
 ### Contratos - Álbum
 
