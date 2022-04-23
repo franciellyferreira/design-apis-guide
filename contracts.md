@@ -12,10 +12,9 @@ Vamos considerar o cenário em que teremos uma aplicação que exibirá a discog
 
 ### Contratos - Artista
 
-**> Criar cadastro de artista**
+**Criar cadastro de artista**
 
-- Verbo HTTP: POST
-- URL: /artists
+- POST /artists
 - Formato: json
 - Corpo da requisição:
 ```
@@ -34,18 +33,16 @@ Vamos considerar o cenário em que teremos uma aplicação que exibirá a discog
 }
 ```
 
-**> Remover cadastro de artista**
+**Remover cadastro de artista**
 
-- Verbo HTTP: DELETE
-- URL: /artists/1
+- DELETE /artists/1
 - Status Code HTTP da resposta: 204
 
 ### Contratos - Álbum
 
-**> Criar cadastro de álbum**
+**Criar cadastro de álbum**
 
-- Verbo HTTP: POST
-- URL: /artists/1/albums
+- POST /artists/1/albums
 - Formato: json
 - Corpo da requisição:
 ```
@@ -66,16 +63,14 @@ Vamos considerar o cenário em que teremos uma aplicação que exibirá a discog
 }
 ```
 
-**> Remover cadastro de álbum**
+**Remover cadastro de álbum**
 
-- Verbo HTTP: DELETE
-- URL: /artists/1/albums/1
+- DELETE /artists/1/albums/1
 - Status Code HTTP da resposta: 204
 
-**> Listar todos os álbuns do artista**
+**Listar todos os álbuns do artista**
 
-- Verbo HTTP: GET
-- URL: /artists/1/albums
+- GET /artists/1/albums
 - Formato: json
 - Status Code HTTP da resposta: 200
 - Corpo da resposta:
@@ -99,8 +94,7 @@ Vamos considerar o cenário em que teremos uma aplicação que exibirá a discog
 
 **Criar cadastro de canção**
 
-- Verbo HTTP: POST
-- URL: /artists/1/albums/1/songs
+- POST /artists/1/albums/1/songs
 - Formato: json
 - Corpo da requisição:
 ```
@@ -119,16 +113,14 @@ Vamos considerar o cenário em que teremos uma aplicação que exibirá a discog
 }
 ```
 
-**> Remover cadastro de canção**
+**Remover cadastro de canção**
 
-- Verbo HTTP: DELETE
-- URL: /artists/1/albums/1/songs/1
+- DELETE /artists/1/albums/1/songs/1
 - Status Code HTTP da resposta: 204
 
-**> Lista todas os canções do álbum do artista**
+**Lista todas os canções do álbum do artista**
 
-- Verbo HTTP: GET
-- URL: /artists/1/albums/1/songs
+- GET /artists/1/albums/1/songs
 - Formato: json
 - Status Code HTTP da resposta: 200
 - Corpo da resposta:
