@@ -6,11 +6,13 @@ O que chamados de contrato é a documentação da API, normalmente criada pelos 
 
 O contrato é definido pelos provedores de serviços e são criados destinados aos consumidores, que podem ser empresas, desenvolvedores e departamentos internos, que utilizarão a API.
 
-### Exemplo
+### Exemplos
 
-Vamos considerar o cenário em que teremos uma aplicação que exibirá a discografia de diversos artistas, neste caso pensou-se na criação de uma aplicação front-end que consumirá uma API responsável pelo back-end. Utilizando a metodologia [API First ou Desing First](desing-firts.md), optou-se por pensar e definir os contratos da API antes de iniciar o seu desenvolvimento. Segue abaixo alguns cenários para manipular o cadastro dos artistas, álbuns e músicas:
+Vamos considerar o cenário em que teremos uma aplicação que exibirá a discografia de diversos artistas, neste caso pensou-se na criação de uma aplicação front-end que consumirá uma API responsável pelo back-end. Utilizando a metodologia [API First ou Desing First](desing-firts.md), optou-se por pensar e definir os contratos da API antes de iniciar o seu desenvolvimento. Segue abaixo alguns cenários para manipular o cadastro dos artistas, álbuns e canções:
 
-**Criar cadastro de artista**
+**Artista**
+
+**> Criar cadastro de artista**
 
 - Verbo HTTP: POST
 - URL: /artists
@@ -18,21 +20,29 @@ Vamos considerar o cenário em que teremos uma aplicação que exibirá a discog
 - Corpo da requisição:
 ```
 {
-  "name": "David Bowie",
-  "image: "url-example-image-url"
+    "name": "David Bowie",
+    "image: "url-example-image-url"
 }
 ```
 - Status Code HTTP da resposta: 201
 - Corpo da resposta:
 ```
 {
-  "id": 1,
-  "name": "David Bowie",
-  "image: "url-example-image-url"
+    "id": 1,
+    "name": "David Bowie",
+    "image: "url-example-image-url"
 }
 ```
 
-**Criar cadastro de álbum**
+**> Remover cadastro de artista**
+
+- Verbo HTTP: DELETE
+- URL: /artists/1
+- Status Code HTTP da resposta: 204
+
+**Álbum**
+
+**> Criar cadastro de álbum**
 
 - Verbo HTTP: POST
 - URL: /artists/1/albums
@@ -40,45 +50,29 @@ Vamos considerar o cenário em que teremos uma aplicação que exibirá a discog
 - Corpo da requisição:
 ```
 {
-  "name": "Heroes",
-  "year": 1977,
-  "image": "url-example-image-url"
+    "name": "Heroes",
+    "year": 1977,
+    "image": "url-example-image-url"
 }
 ```
 - Status Code HTTP da resposta: 201
 - Corpo da resposta:
 ```
 {
-  "id": 1,
-  "name": "Heroes",
-  "year": 1977,
-  "image": "url-example-image-url"
+    "id": 1,
+    "name": "Heroes",
+    "year": 1977,
+    "image": "url-example-image-url"
 }
 ```
 
-**Criar cadastro de música**
+**> Remover cadastro de álbum**
 
-- Verbo HTTP: POST
-- URL: /artists/1/albums/1/songs
-- Formato: json
-- Corpo da requisição:
-```
-{
-  "name": "Beauty and the Beast",
-  "time": "03:36"
-}
-```
-- Status Code HTTP da resposta: 201
-- Corpo da resposta:
-```
-{
-  "id": 1,
-  "name": "Beauty and the Beast",
-  "time": "03:36"
-}
-```
+- Verbo HTTP: DELETE
+- URL: /artists/1/albums/1
+- Status Code HTTP da resposta: 204
 
-**Lista todos os álbuns do artista**
+**> Listar todos os álbuns do artista**
 
 - Verbo HTTP: GET
 - URL: /artists/1/albums
@@ -87,25 +81,80 @@ Vamos considerar o cenário em que teremos uma aplicação que exibirá a discog
 - Corpo da resposta:
 ```
 {
-  "name": "David Bowie",
-  "image: "url-example-image-url",
-  "albums": [
-    {
-      "id": 1,
-      "name": "Heroes",
-      "year": 1977,
-      "image": "url-example-image-url",
-      "songs": [
+    "name": "David Bowie",
+    "image: "url-example-image-url",
+    "albums": [
         {
-          "id": 1,
-          "name": "Beauty and the Beast",
-          "time": "03:36"
-        }
-      ]
-    }
-  ]
+            "id": 1,
+            "name": "Heroes",
+            "year": 1977,
+            "image": "url-example-image-url"
+        },
+        ...
+    ]
 }
 ```
+
+**Canção**
+
+**Criar cadastro de canção**
+
+- Verbo HTTP: POST
+- URL: /artists/1/albums/1/songs
+- Formato: json
+- Corpo da requisição:
+```
+{
+    "name": "Beauty and the Beast",
+    "time": "03:36"
+}
+```
+- Status Code HTTP da resposta: 201
+- Corpo da resposta:
+```
+{
+    "id": 1,
+    "name": "Beauty and the Beast",
+    "time": "03:36"
+}
+```
+
+**> Remover cadastro de canção**
+
+- Verbo HTTP: DELETE
+- URL: /artists/1/albums/1/songs/1
+- Status Code HTTP da resposta: 204
+
+**> Lista todas os canções do álbum do artista**
+
+- Verbo HTTP: GET
+- URL: /artists/1/albums/1/songs
+- Formato: json
+- Status Code HTTP da resposta: 200
+- Corpo da resposta:
+```
+{
+    "name": "David Bowie",
+    "image: "url-example-image-url",
+    "albums": [
+        {
+            "id": 1,
+            "name": "Heroes",
+            "year": 1977,
+            "image": "url-example-image-url",
+            "songs": [
+                {
+                    "id": 1,
+                    "name": "Beauty and the Beast",
+                    "time": "03:36"
+                },
+                ...
+            ]
+        }
+    ]
+}
+```
+
 
 <br><br>
 
