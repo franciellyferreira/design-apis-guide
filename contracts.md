@@ -182,7 +182,7 @@ Lista todas os canções do álbum {1} do artista {1}
 
 [⬅️ voltar para menu](index.md)
 
-[➡️ próximo tópico Contratos](versioning.md)
+[➡️ próximo tópico Versionamento](versioning.md)
 
 <br><br>
 
