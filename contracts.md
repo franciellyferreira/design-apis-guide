@@ -15,7 +15,7 @@ Vamos considerar o cenário em que teremos uma aplicação que exibirá a discog
 
 ### POST /artists
 
-Criar cadastro de artista.
+Criar cadastro do artista
 
 *Corpo da requisição*
 ```
@@ -63,7 +63,7 @@ Buscar artista {1}
 
 ### POST /artists/1/albums
 
-Criar cadastro de álbum
+Criar cadastro de álbum no artista {1}
 
 *Corpo da requisição*
 ```
@@ -90,9 +90,9 @@ Criar cadastro de álbum
 - 400: Requisição inválida
 - 500: Erro interno no servidor
 
-**GET /artists/1/albums**
+### GET /artists/1/albums
 
-Listar todos os álbuns do artista
+Listar todos os álbuns do artista {1}
 
 *Corpo da resposta*
 ```
@@ -121,7 +121,7 @@ Listar todos os álbuns do artista
 
 ### POST /artists/1/albums/1/songs
 
-Criar cadastro de canção
+Criar cadastro de canção no álbum {1} do artista {1}
 
 *Corpo da requisição*
 ```
@@ -148,7 +148,7 @@ Criar cadastro de canção
 
 ### GET /artists/1/albums/1/songs
 
-Lista todas os canções do álbum do artista
+Lista todas os canções do álbum {1} do artista {1}
 
 **Corpo da resposta**
 ```
@@ -173,9 +173,16 @@ Lista todas os canções do álbum do artista
 - 404: Não encontrado
 - 500: Erro interno no servidor
 
+
 <br>
 
 > **Informativo**: no exemplo acima, optamos pela troca de mensagem no formato json, para facilitar e validar se o payload criado está no formato correto você pode utilizar a ferramenta [JSON Formatter e Validator](https://jsonformatter.curiousconcept.com/).
+
+<br><br>
+
+[⬅️ voltar para menu](index.md)
+
+[➡️ próximo tópico Contratos](versioning.md)
 
 <br><br>
 
