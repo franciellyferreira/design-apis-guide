@@ -11,21 +11,21 @@ O contrato é definido pelos provedores de serviços e são criados destinados a
 Vamos considerar o cenário em que teremos uma aplicação que exibirá a discografia de diversos artistas, neste caso pensou-se na criação de uma aplicação front-end que consumirá uma API responsável pelo back-end. Utilizando a metodologia [API First ou Desing First](desing-firts.md), optou-se por pensar e definir os contratos da API antes de iniciar o seu desenvolvimento. Segue abaixo alguns cenários para manipular o cadastro dos artistas, álbuns e canções:
 
 
-### Contratos - Artista
+### Artista
 
-**Criar cadastro de artista**
+### POST /artists
 
-- POST /artists
-- Formato: json
-- Corpo da requisição:
+Criar cadastro de artista.
+
+*Corpo da requisição*
 ```
 {
     "name": "David Bowie",
     "image": "url-example-image-url"
 }
 ```
-- Status Code HTTP da resposta: 201
-- Corpo da resposta:
+
+*Corpo da resposta*
 ```
 {
     "id": 1,
@@ -34,29 +34,18 @@ Vamos considerar o cenário em que teremos uma aplicação que exibirá a discog
 }
 ```
 
-**Listar todos os artistas**
+*Códigos de status de resposta*
 
-- GET /artists
-- Formato: json
-- Status Code HTTP da resposta: 200
-- Corpo da resposta:
-```
-[
-    {
-        "id": 1,
-        "name": "David Bowie",
-        "image": "url-example-image-url"
-    },
-    ...
-]
-```
+- 201: Criado
+- 400: Requisição inválida
+- 500: Erro interno no servidor
 
-**Listar o artista [1]**
+### GET /artists/1
 
-- GET /artists/1
-- Formato: json
-- Status Code HTTP da resposta: 200
-- Corpo da resposta:
+Buscar artista {1}
+
+*Corpo da resposta*
+
 ```
 {
     "name": "David Bowie",
@@ -64,44 +53,19 @@ Vamos considerar o cenário em que teremos uma aplicação que exibirá a discog
 }
 ```
 
-**Atualizar cadastro do artista**
+*Códigos de status de resposta*
 
-- PUT /artists/1
-- Formato: json
-- Corpo da requisição:
-```
-{
-    "name": "David Robert Jones",
-    "image": "url-example-image-url"
-}
-```
-- Status Code HTTP da resposta: 200
-- Corpo da resposta:
-```
-{
-    "name": "David Robert Jones",
-    "image": "url-example-image-url"
-}
-```
+- 200: Sucesso
+- 404: Não encontrado
+- 500: Erro interno no servidor
 
-**Remover cadastro do artista**
+### Álbum
 
-- DELETE /artists/1
-- Formato: json
-- Status Code HTTP da resposta: 202
-- Corpo da resposta:
-```
-```
+### POST /artists/1/albums
 
+Criar cadastro de álbum
 
-
-### Contratos - Álbum
-
-**Criar cadastro de álbum**
-
-- POST /artists/1/albums
-- Formato: json
-- Corpo da requisição:
+*Corpo da requisição*
 ```
 {
     "name": "Heroes",
@@ -109,8 +73,8 @@ Vamos considerar o cenário em que teremos uma aplicação que exibirá a discog
     "image": "url-example-image-url"
 }
 ```
-- Status Code HTTP da resposta: 201
-- Corpo da resposta:
+
+*Corpo da resposta*
 ```
 {
     "id": 1,
@@ -120,12 +84,17 @@ Vamos considerar o cenário em que teremos uma aplicação que exibirá a discog
 }
 ```
 
-**Listar todos os álbuns do artista**
+*Códigos de status de resposta*
 
-- GET /artists/1/albums
-- Formato: json
-- Status Code HTTP da resposta: 200
-- Corpo da resposta:
+- 201: Criado
+- 400: Requisição inválida
+- 500: Erro interno no servidor
+
+**GET /artists/1/albums**
+
+Listar todos os álbuns do artista
+
+*Corpo da resposta*
 ```
 {
     "name": "David Bowie",
@@ -142,21 +111,27 @@ Vamos considerar o cenário em que teremos uma aplicação que exibirá a discog
 }
 ```
 
-### Contratos - Canção
+*Códigos de status de resposta*
 
-**Criar cadastro de canção**
+- 200: Sucesso
+- 404: Não encontrado
+- 500: Erro interno no servidor
 
-- POST /artists/1/albums/1/songs
-- Formato: json
-- Corpo da requisição:
+### Canção
+
+### POST /artists/1/albums/1/songs
+
+Criar cadastro de canção
+
+*Corpo da requisição*
 ```
 {
     "name": "Beauty and the Beast",
     "time": "03:36"
 }
 ```
-- Status Code HTTP da resposta: 201
-- Corpo da resposta:
+
+*Corpo da resposta*
 ```
 {
     "id": 1,
@@ -165,12 +140,17 @@ Vamos considerar o cenário em que teremos uma aplicação que exibirá a discog
 }
 ```
 
-**Lista todas os canções do álbum do artista**
+*Códigos de status de resposta*
 
-- GET /artists/1/albums/1/songs
-- Formato: json
-- Status Code HTTP da resposta: 200
-- Corpo da resposta:
+- 201: Criado
+- 400: Requisição inválida
+- 500: Erro interno no servidor
+
+### GET /artists/1/albums/1/songs
+
+Lista todas os canções do álbum do artista
+
+**Corpo da resposta**
 ```
 {
     "name": "Heroes",
@@ -187,9 +167,15 @@ Vamos considerar o cenário em que teremos uma aplicação que exibirá a discog
 }
 ```
 
+*Códigos de status de resposta*
+
+- 200: Sucesso
+- 404: Não encontrado
+- 500: Erro interno no servidor
+
 <br>
 
-> **Dica** No exemplo acima, optamos pela troca de mensagem no formato json, para facilitar e validar se o payload criado está no formato correto você pode utilizar a ferramenta [JSON Formatter e Validator](https://jsonformatter.curiousconcept.com/).
+> **Informativo**: no exemplo acima, optamos pela troca de mensagem no formato json, para facilitar e validar se o payload criado está no formato correto você pode utilizar a ferramenta [JSON Formatter e Validator](https://jsonformatter.curiousconcept.com/).
 
 <br><br>
 
