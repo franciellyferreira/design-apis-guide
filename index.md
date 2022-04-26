@@ -28,8 +28,8 @@
   - [3xx - Redirecionamento](http-status-code.md#3xx---redirecionamento)
   - [4xx - Erro do cliente](http-status-code.md#4xx---erro-do-cliente)
   - [5xx - Erro do servidor](http-status-code.md#5xx---erro-do-servidor)
-- Contratos
-- Versionamento
+- [Contratos](contracts.md)
+- [Versionamento](versioning.md)
 - Segurança
 - Tratamento de Erros
 - Logs
