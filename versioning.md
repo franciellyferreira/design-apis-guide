@@ -51,11 +51,13 @@ Forma mais difícil para testar principalmente para os consumidores que ao obter
 
 <br>
 
-> Existem muitas discussões por especialistas sobre qual a melhor forma de versionar e até mesmo se realmente o versionamento deve ser feito, portanto não existe a forma sagrada e correta, o que vale é padronizar o versionamento seguindo o estilo de versionamento que você mais considera adequado para o seu dia a dia.
-
-ℹ️ Dica de leitura para enriquecer ainda mais os conhecimentos [Google - Versioning in API design](https://cloud.google.com/blog/products/api-management/api-design-which-version-of-versioning-is-right-for-you)
+> Existem muitas discussões por especialistas sobre qual a melhor forma de versionar e até mesmo se realmente o versionamento deve ser feito, portanto não existe a forma sagrada e correta, o que vale é padronizar o versionamento seguindo o estilo de versionamento que você mais considera adequado para o seu dia a dia. ℹ️ Dica de leitura [Google - Versioning in API design](https://cloud.google.com/blog/products/api-management/api-design-which-version-of-versioning-is-right-for-you)
 
 <br><br>
+
+[⬅️ voltar para menu](index.md)
+
+[➡️ próximo tópico Segurança](security.md)
 
 <br><br>
 
