@@ -30,6 +30,9 @@
   - [5xx - Erro do servidor](http-status-code.md#5xx---erro-do-servidor)
 - [Contratos](contracts.md)
 - [Versionamento](versioning.md)
+  - [Versionamento pela URL](versioning.md#versionamento-pela-url)
+  - [Cabeçalho customizado](versioning.md#cabeçalho-customizado)
+  - [Cabeçalho Accept](versioning.md#cabeçalho-accept)
 - [Segurança](security.md)
 - Tratamento de Erros
 - Logs
