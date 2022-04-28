@@ -30,7 +30,7 @@
   - [5xx - Erro do servidor](http-status-code.md#5xx---erro-do-servidor)
 - [Contratos](contracts.md)
 - [Versionamento](versioning.md)
-- Segurança
+- [Segurança](security.md)
 - Tratamento de Erros
 - Logs
 - Documentação
