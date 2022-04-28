@@ -57,8 +57,7 @@ A segurança de uma aplicação não se restringe apenas a autenticação e auto
 Referências
 
 [^1]: [REST API Security Essentials](https://restfulapi.net/security-essentials/)
-[^2]: [Best practices for REST API security: Authentication and authorization
-](https://stackoverflow.blog/2021/10/06/best-practices-for-authentication-and-authorization-for-rest-apis/)
+[^2]: [Best practices for REST API security: Authentication and authorization](https://stackoverflow.blog/2021/10/06/best-practices-for-authentication-and-authorization-for-rest-apis/)
 [^3]: [Encrypt Your Data](https://brightsec.com/blog/api-security-best-practices/)
 [^4]: [Securing APIs: 10 Ways to Keep Your Data and Infrastructure Safe](https://www.f5.com/labs/articles/education/securing-apis--10-best-practices-for-keeping-your-data-and-infra)
 [^5]: [The Protection of Information in Computer Systems - BASIC PRINCIPLES OF INFORMATION PROTECTION](http://web.mit.edu/Saltzer/www/publications/protection/Basic.html)
