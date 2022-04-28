@@ -32,8 +32,6 @@ No mundo digital, a autenticação é o processo de verificação da identidade 
 No mínimo, você deve usar uma chave de API (chave assimétrica) ou autenticação de acesso básico (usuário/senha) para aumentar a dificuldade de invadir seu sistema. Mas você deve considerar o uso do OAuth 2 como seu protocolo de escolha para uma segurança robusta de suas APIs. [^4]
 
 
-
-
 ### Princípios de Design para segurança de APIs
 
 A segurança de uma aplicação não se restringe apenas a autenticação e autorização. No artigo "The Protection of Information in Computer Systems"[^3], Jerome Saltzer e Michael Schroeder apresentam oito princípios de design para proteção de informação em sistema de software, esses princípios podem ser utilizados para diversos típicos de aplicação, não se restringindo apenas as APIs.
@@ -63,4 +61,4 @@ Referências
 ](https://stackoverflow.blog/2021/10/06/best-practices-for-authentication-and-authorization-for-rest-apis/)
 [^3]: [Encrypt Your Data](https://brightsec.com/blog/api-security-best-practices/)
 [^4]: [Securing APIs: 10 Ways to Keep Your Data and Infrastructure Safe](https://www.f5.com/labs/articles/education/securing-apis--10-best-practices-for-keeping-your-data-and-infra)
-[^]: [The Protection of Information in Computer Systems - BASIC PRINCIPLES OF INFORMATION PROTECTION](http://web.mit.edu/Saltzer/www/publications/protection/Basic.html)
+[^5]: [The Protection of Information in Computer Systems - BASIC PRINCIPLES OF INFORMATION PROTECTION](http://web.mit.edu/Saltzer/www/publications/protection/Basic.html)
