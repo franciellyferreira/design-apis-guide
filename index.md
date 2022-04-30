@@ -29,7 +29,7 @@
   - [4xx - Erro do cliente](http-status-code.md#4xx---erro-do-cliente)
   - [5xx - Erro do servidor](http-status-code.md#5xx---erro-do-servidor)
 - [Contratos](contracts.md)
-  - Tratamento de erros
+- [Tratamento de erros](error-handling.md)
 - [Versionamento](versioning.md)
   - [Versionamento pela URL](versioning.md#versionamento-pela-url)
   - [Cabeçalho customizado](versioning.md#cabeçalho-customizado)
