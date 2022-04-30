@@ -37,7 +37,6 @@ Criar artista {2}
 
 **400: Bad Request**
 
-<br>
 
 ### Exemplo 2 - Recurso não autorizado
 
@@ -57,7 +56,6 @@ Buscar álbum {2} do artista {1}
 
 **401: Unauthorized**
 
-<br>
 
 ### Exemplo 3 - Recurso não encontrado
 
