@@ -36,4 +36,4 @@
   - [Cabeçalho Accept](versioning.md#cabeçalho-accept)
 - [Segurança](security.md)
 - Logs
-- Documentação
+- [Documentação](documentation.md)
