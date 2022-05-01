@@ -28,11 +28,11 @@ Aplicativos implementados com base em arquivos de interface OpenAPI podem gerar 
 
 Existem diversos de tipos de ferramentas para realizar a documentação de APIs atualmente, você pode buscar o que melhor se adaptar a sua necessidade. Segue abaixo algumas opções para documentação de APIs:
 
-### Documento no Google Drive
+#### Documento no Google Drive
 
 Os [documentos do Google](https://www.google.com/intl/pt-BR/docs/about/), são telas em branco, para que sejam criados diversos tipos de documentos diferentes. Caso você queira pode começar a desenhar os contratos dos recursos da sua API, corpos da requisição e resposta, códigos de estado, etc. Mesmo não sendo automatizado ou ideal, ele pode ser compartilhado com os membros do time, para que todos possam interagir com o documento,  até chegar em um padrão de documento que agrade a todos. Após a documentação ser validada, o time pode começar a usar uma ferramenta mais automatizada, o mais importante sempre é que a documentação seja bem completa.
 
-### ReadMe
+#### ReadMe
 
 O [ReadMe](https://readme.com/documentation) é uma ferramenta para gerenciamento e criação de documentação. Se você possuir um arquivo Swagger/OpenAPI, você consegue gerar automaticamente um modelo de referência da sua documentação. [^5]
 
@@ -46,7 +46,7 @@ O [ReadMe](https://readme.com/documentation) é uma ferramenta para gerenciament
   <sup><sub>Fonte: ReadMe - API Reference Redesign (2021-2022)</sub></sup>
 </p>
 
-### Postman
+#### Postman
 
 O [Postman](https://www.postman.com/) é uma plataforma de API para que desenvolvedores projetem, construam, testem e iterem suas APIs. Em abril de 2022, o Postman relata ter mais de 20 milhões de usuários registrados e 75.000 APIs abertas, que, segundo ele, constituem o maior hub de API público do mundo. [^6]
 
@@ -62,17 +62,17 @@ Após gerar a documentação para sua coleção ou API, os usuários podem visua
   <sup><sub>Fonte: Postman - Publishing your docs</sub></sup>
 </p>
 
-### OpenAPI Generator
+#### OpenAPI Generator
 
 O [OpenAPI Generator](https://openapi-generator.tech/) permite a geração de API de bibliotecas de clientes (geração de SDK), stub de servidor, documentação e configuração automaticamente dada o OpenAPI Specification (v2 e v3). [^8]
 
 Para utilizar o OpenAPI Generator, você precisa possuir um arquivo .yaml com a estrutura da documentação da API montada, através desse documento você vai gerar com o comando do OpenAPI a geração das pastas e modelos. [^9]
 
-##Swagger Generator
+#### Swagger Generator
 
 
 
-### RAML
+#### RAML
 
 <br><br>
 
