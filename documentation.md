@@ -48,7 +48,7 @@ O [ReadMe](https://readme.com/documentation) é uma ferramenta para gerenciament
 
 ### Postman
 
-É uma plataforma de API para que desenvolvedores projetem, construam, testem e iterem suas APIs. Em abril de 2022, o Postman relata ter mais de 20 milhões de usuários registrados e 75.000 APIs abertas, que, segundo ele, constituem o maior hub de API público do mundo. [^6]
+O [Postman](https://www.postman.com/) é uma plataforma de API para que desenvolvedores projetem, construam, testem e iterem suas APIs. Em abril de 2022, o Postman relata ter mais de 20 milhões de usuários registrados e 75.000 APIs abertas, que, segundo ele, constituem o maior hub de API público do mundo. [^6]
 
 Após gerar a documentação para sua coleção ou API, os usuários podem visualizar a documentação no Postman. Por padrão, sua documentação é privada, portanto, apenas as pessoas com quem você compartilha uma coleção ou API poderão vê-la. Se você estiver criando uma API pública, poderá publicar sua documentação para disponibilizá-la publicamente para qualquer pessoa com um navegador da web. [^7]
 
@@ -64,9 +64,13 @@ Após gerar a documentação para sua coleção ou API, os usuários podem visua
 
 ### OpenAPI Generator
 
+O [OpenAPI Generator](https://openapi-generator.tech/) permite a geração de API de bibliotecas de clientes (geração de SDK), stub de servidor, documentação e configuração automaticamente dada o OpenAPI Specification (v2 e v3). [^8]
+
+Para utilizar o OpenAPI Generator, você precisa possuir um arquivo .yaml com a estrutura da documentação da API montada, através desse documento você vai gerar com o comando do OpenAPI a geração das pastas e modelos. [^9]
+
+##Swagger Generator
 
 
-### Swagger Generator
 
 ### RAML
 
@@ -82,3 +86,5 @@ Referências:
 [^5]: [ReadMe - Documentation](https://readme.com/documentation)
 [^6]: [Postman - Wikipedia](https://en.wikipedia.org/wiki/Postman_(software))
 [^7]: [Postman - Documenting your API](https://learning.postman.com/docs/publishing-your-api/documenting-your-api/)
+[^8]: [OpenAPI Generator - Github Project](https://github.com/OpenAPITools/openapi-generator)
+[^9]: [Contract-First API Development with OpenAPI Generator and Connexion](https://medium.com/commencis/contract-first-api-development-with-openapi-generator-and-connexion-b21bbf2f9244)
