@@ -21,15 +21,17 @@ Portanto, além das documentações de APIs orientarem os trabalhos dos usuário
 
 Existem diversos de tipos de produtos para realizar a documentação de APIs atualmente, abaixo vamos falar sobre alguns deles:
 
-- Documento no Google Drive
+### Documento no Google Drive
 
-- API Console
+Os [documentos do Google](https://www.google.com/intl/pt-BR/docs/about/), são telas em branco, para que sejam criados diversos tipos de documentos diferentes. Caso você queira pode começar a desenhar os contratos dos recursos da sua API, corpos da requisição e resposta, códigos de estado, etc. Mesmo não sendo automatizado ou ideal, ele pode ser compartilhado com os membros do time, para que todos possam interagir com o documento,  até chegar em um padrão de documento que agrade a todos. Após a documentação ser validada, o time pode começar a usar uma ferramenta mais automatizada, o mais importante sempre é que a documentação seja bem completa.
 
-- API Blueprint
+### API Console
 
-- RAML
+### API Blueprint
 
-- OpenAPI
+### RAML
+
+### OpenAPI
 
 <br><br>
 
