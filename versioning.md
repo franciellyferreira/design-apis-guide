@@ -11,9 +11,9 @@ Já que o software evolui as APIs devem ser versionadas, um serviço disponibili
 
 Vamos analisar o seguinte cenário, onde uma empresa de convênio de saúde, possui uma API que prove endpoints para um site web em que é possível acompanhar financeiro, guia médico e exames.
 
-Essa empresa, vendo outros concorrente evoluindo os serviços prestados, começou a desenvolvedor uma aplicativo móvel, esse aplicativo que vai atender no momento o cliente com as funcionalidades já existentes e vai passar a tender os médicos que poderão acompanhar diariamente guias, consultas e faturamento.
+Essa empresa, vendo outros concorrentes evoluindo os serviços prestados, começou a desenvolvedor uma aplicativo móvel, esse aplicativo que vai atender no momento o cliente com as funcionalidades já existentes e vai passar a atender os médicos que poderão acompanhar diariamente guias, consultas e faturamento.
 
-Como seria necessário mudanças grandes para lançar esse novo produto, optou-se por lançar uma nova versão da API, pois existente já era antiga, não permitia uitas mudanças e sentiu-se a necessidade evoluir.
+Como seria necessário mudanças grandes para lançar esse novo produto, optou-se por lançar uma nova versão da API, pois existente já era antiga, não permitia muitas mudanças e sentiu-se a necessidade evoluir.
 
 Dessa forma, criou-se uma versão nova que será consumida pelo aplicativo, enquanto a versão antiga ainda continuara sendo utilizada pelo site. Neste cenário pensando em manutenção, agora os desenvolvedores precisarão manter as duas versões, até que o site também migre para essa nova versão ou um site novo seja criado para atender a nova versão.
 
