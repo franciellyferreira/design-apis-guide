@@ -46,7 +46,9 @@ Não se esqueçam de sempre passar a exceção para frente, para não perdemos a
 
 <br><br>
 
+[⬅️ voltar para menu](index.md)
 
+[➡️ próximo tópico Documentação](documentation.md)
 
 <br><br>
 
