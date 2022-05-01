@@ -93,14 +93,20 @@ O [Swagger Codegen](https://swagger.io/tools/swagger-codegen/) pode simplificar 
   Exemplo de documentação com o Raml
 </p>
 <p align="center">
-  <img src="images/raml-documentation-example.png">
+  <img src="images/raml-documentation-example.PNG">
 </p>
 <p align="center">
   <sup><sub>Fonte: Raml</sub></sup>
 </p>
 
+
+Essas foram algumas sugestões de documentação, mas atualmente existe inúmeras opções gratuitas ou pagas, portanto seu time pode testar e validar qual a melhor se enquadra nas necessidades dos projetos.
+
 <br><br>
 
+
+
+<br><br>
 
 Referências:
 
