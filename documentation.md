@@ -17,21 +17,39 @@ Portanto, além das documentações de APIs orientarem os trabalhos dos usuário
 - **[Tratamento de Erros](error-handling.md)**: Não se esqueça de criar um padrão de tratamento de erros e documenta-lo em sua API, dessa forma você ajuda o consumidor a ter uma melhor experiência e mais segurança.
 
 
-### Tipos de documentação
+### O que é OpenAPI?
 
-Existem diversos de tipos de produtos para realizar a documentação de APIs atualmente, abaixo vamos falar sobre alguns deles:
+
+
+
+### Ferramentas open documentação
+
+Existem diversos de tipos de produtos para realizar a documentação de APIs atualmente, você pode buscar o que melhor se adaptar a sua necessidade. Segue abaixo algumas opções para documentação de APIs:
 
 ### Documento no Google Drive
 
 Os [documentos do Google](https://www.google.com/intl/pt-BR/docs/about/), são telas em branco, para que sejam criados diversos tipos de documentos diferentes. Caso você queira pode começar a desenhar os contratos dos recursos da sua API, corpos da requisição e resposta, códigos de estado, etc. Mesmo não sendo automatizado ou ideal, ele pode ser compartilhado com os membros do time, para que todos possam interagir com o documento,  até chegar em um padrão de documento que agrade a todos. Após a documentação ser validada, o time pode começar a usar uma ferramenta mais automatizada, o mais importante sempre é que a documentação seja bem completa.
 
-### API Console
+### Postman
 
-### API Blueprint
+
+### Redocly
+
+
+### Read me
+
+
+### DapperDox
+
 
 ### RAML
 
-### OpenAPI
+### Lucy Bot
+
+### OpenAPI generator
+
+### Swagger Codegen
+
 
 <br><br>
 
