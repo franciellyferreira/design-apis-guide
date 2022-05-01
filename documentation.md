@@ -17,15 +17,16 @@ Portanto, além das documentações de APIs orientarem os trabalhos dos usuário
 - **[Tratamento de Erros](error-handling.md)**: Não se esqueça de criar um padrão de tratamento de erros e documenta-lo em sua API, dessa forma você ajuda o consumidor a ter uma melhor experiência e mais segurança.
 
 
-### O que é e como surgiu o OpenAPI?
+### Swagger e OpenAPI
 
-Em 2011, Tony Tam criou o projeto Swagger API, tudo começou quando em um dos projetos em que trabalha naquele época precisando de uma forma prática e mais automatizada de documentação, ele iniciou a representação documentação utilizando o formato JSON, aproveitando a flexibilidade do estilo de arquitetura REST e usando muitos recursos de ferramentas criadas para o protocolo SOAP. No mesmo ano de criação o Swagger API se tornou um projeto aberto, com interface e um validador autônomo.
+Tudo começou em 2011 quando Tony Tam percebeu a necessidade de uma documentação mais automatizada em um dos projeto em que trabalhava, ele iniciou a representação da documentação utilizando o formato JSON, aproveitando a flexibilidade do estilo de arquitetura REST e usando muitos recursos de ferramentas criadas para o protocolo SOAP. No mesmo ano de criação o Swagger API se tornou um projeto aberto, com interface e um validador autônomo. Somente em 2016 esse projeto foi renomeado e passou a se chamar [OpenAPI Specification](https://github.com/OAI/OpenAPI-Specification). [^3]
 
-Somente em 2016 esse projeto foi renomeado e passou a se chamar [OpenAPI Specification](https://github.com/OAI/OpenAPI-Specification). Atualmente o projet
+Aplicativos implementados com base em arquivos de interface OpenAPI podem gerar automaticamente documentação de métodos, parâmetros e modelos. Isso ajuda a manter a documentação, as bibliotecas de cliente e o código-fonte sincronizados. Além disso o OpenAPI é independente de linguagem, dessa forma os clientes podem entender e consumir os serviços sem conhecimento sobre o código. Hoje o OpenAPI é utilizado em [diversos projetos](https://github.com/OAI/OpenAPI-Specification/blob/main/IMPLEMENTATIONS.md#implementations) ao redor do mundo. [^4]
 
-### Ferramentas open documentação
 
-Existem diversos de tipos de produtos para realizar a documentação de APIs atualmente, você pode buscar o que melhor se adaptar a sua necessidade. Segue abaixo algumas opções para documentação de APIs:
+### Ferramentas gratuitas para documentação
+
+Existem diversos de tipos de ferramentas para realizar a documentação de APIs atualmente, você pode buscar o que melhor se adaptar a sua necessidade. Segue abaixo algumas opções para documentação de APIs:
 
 ### Documento no Google Drive
 
@@ -59,3 +60,5 @@ Referências:
 
 [^1]: [API Documentation Guide and Best Practices](https://stoplight.io/api-documentation-guide)
 [^2]: [Best Practices in API Documentation](https://swagger.io/blog/api-documentation/best-practices-in-api-documentation/)
+[^3]: [Swagger - Wikipedia](https://en.wikipedia.org/wiki/Swagger_(software))
+[^4]: [OpenAPI Specification - Wikipedia](https://en.wikipedia.org/wiki/OpenAPI_Specification)
