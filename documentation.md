@@ -66,10 +66,21 @@ Após gerar a documentação para sua coleção ou API, os usuários podem visua
 
 O [OpenAPI Generator](https://openapi-generator.tech/) permite a geração de API de bibliotecas de clientes (geração de SDK), stub de servidor, documentação e configuração automaticamente dada o OpenAPI Specification (v2 e v3). [^8]
 
-Para utilizar o OpenAPI Generator, você precisa possuir um arquivo .yaml com a estrutura da documentação da API montada, através desse documento você vai gerar com o comando do OpenAPI a geração das pastas e modelos. [^9]
+Para utilizar o OpenAPI Generator, você precisa possuir um arquivo .yaml na versão do OpenAPI Specification que deseja e com a estrutura da documentação da API montada, depois você vai gerar a documentação passando para o comando do OpenAPI Generator o caminho do arquivo .yaml e dessa forma serão geradas as pastas e modelos. [^9]
 
-#### Swagger Generator
+#### Swagger Codegen
 
+O [Swagger Codegen](https://swagger.io/tools/swagger-codegen/) pode simplificar seu processo de compilação gerando stubs de servidor e SDKs de cliente para qualquer API, definida como OpenAPI Specification, para que sua equipe possa se concentrar melhor na implementação e adoção de sua API.
+
+<p align="center">
+  Exemplo de documentação com o Swagger Codegen 
+</p>
+<p align="center">
+  <img src="images/swagger-codegen-documentation-example.jpg">
+</p>
+<p align="center">
+  <sup><sub>Fonte: Swagger Generator - Example</sub></sup>
+</p>
 
 
 #### RAML
