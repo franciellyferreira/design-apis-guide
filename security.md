@@ -54,6 +54,12 @@ A segurança de uma aplicação não se restringe apenas a autenticação e auto
 
 <br><br>
 
+[⬅️ voltar para menu](index.md)
+
+[➡️ próximo tópico Logs](logs.md)
+
+<br><br>
+
 Referências
 
 [^1]: [REST API Security Essentials](https://restfulapi.net/security-essentials/)
