@@ -17,10 +17,11 @@ Portanto, além das documentações de APIs orientarem os trabalhos dos usuário
 - **[Tratamento de Erros](error-handling.md)**: Não se esqueça de criar um padrão de tratamento de erros e documenta-lo em sua API, dessa forma você ajuda o consumidor a ter uma melhor experiência e mais segurança.
 
 
-### O que é OpenAPI?
+### O que é e como surgiu o OpenAPI?
 
+Em 2011, Tony Tam criou o projeto Swagger API, tudo começou quando em um dos projetos em que trabalha naquele época precisando de uma forma prática e mais automatizada de documentação, ele iniciou a representação documentação utilizando o formato JSON, aproveitando a flexibilidade do estilo de arquitetura REST e usando muitos recursos de ferramentas criadas para o protocolo SOAP. No mesmo ano de criação o Swagger API se tornou um projeto aberto, com interface e um validador autônomo.
 
-
+Somente em 2016 esse projeto foi renomeado e passou a se chamar [OpenAPI Specification](https://github.com/OAI/OpenAPI-Specification). Atualmente o projet
 
 ### Ferramentas open documentação
 
