@@ -27,7 +27,7 @@
   - [2xx - Sucesso](http-status-code.md#2xx---sucesso)
   - [3xx - Redirecionamento](http-status-code.md#3xx---redirecionamento)
   - [4xx - Erro do cliente](http-status-code.md#4xx---erro-do-cliente)
-  - [5xx - Erro do servidor](http-status-code.md#5xx---erro-do-servidor)
+  - [5xx - Erro do servidor](http-statdocumentation.md#entendendo-melhor-swagger-e-openapius-code.md#5xx---erro-do-servidor)
 - [Contratos](contracts.md)
 - [Tratamento de erros](error-handling.md)
 - [Versionamento](versioning.md)
@@ -35,5 +35,8 @@
   - [Cabeçalho customizado](versioning.md#cabeçalho-customizado)
   - [Cabeçalho Accept](versioning.md#cabeçalho-accept)
 - [Segurança](security.md)
-- Logs
+- [Logs](logs.md)
 - [Documentação](documentation.md)
+  - [O que deve ter na minha documentação?](documentation.md#o-que-deve-ter-na-minha-documentação)
+  - [Entendendo melhor Swagger e OpenAPI](documentation.md#entendendo-melhor-swagger-e-openapi)
+  - [Ferramentas para documentação](documentation.md#ferramentas-para-documentação)
