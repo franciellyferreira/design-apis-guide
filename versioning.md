@@ -47,7 +47,7 @@ Outra opção é utilizar o cabeçalho de solicitação customizado, através do
 - example-health-care.com/apiclients
 - Accept: application/vnd.example-health-care.v2+json
 
-Forma mais difícil para testar principalmente para os consumidores que ao obterem o endpoint ainda terão que configurar adequadamente o cabeçalho de aceitação, porém e'a forma mais correta segundo o padrão HTTP já que utiliza o cabeçalho de aceitação que define como você gostaria dos dados.
+Forma mais difícil para testar principalmente para os consumidores que ao obterem o endpoint ainda terão que configurar adequadamente o cabeçalho de aceitação, porém é a forma mais correta segundo o padrão HTTP já que utiliza o cabeçalho de aceitação que define como você gostaria dos dados.
 
 <br>
 
