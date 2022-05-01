@@ -17,7 +17,7 @@ Portanto, além das documentações de APIs orientarem os trabalhos dos usuário
 - **[Tratamento de Erros](error-handling.md)**: Não se esqueça de criar um padrão de tratamento de erros e documenta-lo em sua API, dessa forma você ajuda o consumidor a ter uma melhor experiência e mais segurança.
 
 
-### Swagger e OpenAPI
+### Entendendo melhor Swagger e OpenAPI
 
 Tudo começou em 2011 quando Tony Tam percebeu a necessidade de uma documentação mais automatizada em um dos projeto em que trabalhava, ele iniciou a representação da documentação utilizando o formato JSON, aproveitando a flexibilidade do estilo de arquitetura REST e usando muitos recursos de ferramentas criadas para o protocolo SOAP. No mesmo ano de criação o Swagger API se tornou um projeto aberto, com interface e um validador autônomo. Somente em 2016 esse projeto foi renomeado e passou a se chamar [OpenAPI Specification](https://github.com/OAI/OpenAPI-Specification). [^3]
 
@@ -62,11 +62,13 @@ Após gerar a documentação para sua coleção ou API, os usuários podem visua
   <sup><sub>Fonte: Postman - Publishing your docs</sub></sup>
 </p>
 
+
 #### OpenAPI Generator
 
 O [OpenAPI Generator](https://openapi-generator.tech/) permite a geração de API de bibliotecas de clientes (geração de SDK), stub de servidor, documentação e configuração automaticamente dada o OpenAPI Specification (v2 e v3). [^8]
 
 Para utilizar o OpenAPI Generator, você precisa possuir um arquivo .yaml na versão do OpenAPI Specification que deseja e com a estrutura da documentação da API montada, depois você vai gerar a documentação passando para o comando do OpenAPI Generator o caminho do arquivo .yaml e dessa forma serão geradas as pastas e modelos. [^9]
+
 
 #### Swagger Codegen
 
@@ -76,7 +78,7 @@ O [Swagger Codegen](https://swagger.io/tools/swagger-codegen/) pode simplificar 
   Exemplo de documentação com o Swagger Codegen 
 </p>
 <p align="center">
-  <img src="images/swagger-codegen-documentation-example.jpg">
+  <img src="images/swagger-codegen-documentation-example.PNG">
 </p>
 <p align="center">
   <sup><sub>Fonte: Swagger Generator - Example</sub></sup>
@@ -84,6 +86,18 @@ O [Swagger Codegen](https://swagger.io/tools/swagger-codegen/) pode simplificar 
 
 
 #### RAML
+
+[RAML](https://raml.org/) é uma forma simples de modelar APIs. Utiliza a linguagem de modelogagem de APIs baseado em YAML para descrever as especificações de uma API. Você pode criar o documento raml no formato yaml e depois utilizar, por exemplo, API Workbench o primeiro IDE para design de APIs entre [outros projetos](https://raml.org/projects) para  gerenciar todo o ciclo de vida da sua API.
+
+<p align="center">
+  Exemplo de documentação com o Raml
+</p>
+<p align="center">
+  <img src="images/raml-documentation-example.png">
+</p>
+<p align="center">
+  <sup><sub>Fonte: Raml</sub></sup>
+</p>
 
 <br><br>
 
