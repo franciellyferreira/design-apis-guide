@@ -52,6 +52,16 @@ O [ReadMe](https://readme.com/documentation) é uma ferramenta para gerenciament
 
 Após gerar a documentação para sua coleção ou API, os usuários podem visualizar a documentação no Postman. Por padrão, sua documentação é privada, portanto, apenas as pessoas com quem você compartilha uma coleção ou API poderão vê-la. Se você estiver criando uma API pública, poderá publicar sua documentação para disponibilizá-la publicamente para qualquer pessoa com um navegador da web. [^7]
 
+<p align="center">
+  Exemplo de documentação com o Postman 
+</p>
+<p align="center">
+  <img src="images/postman-documentation-example.jpg">
+</p>
+<p align="center">
+  <sup><sub>Fonte: Postman - Publishing your docs</sub></sup>
+</p>
+
 ### OpenAPI Generator
 
 
