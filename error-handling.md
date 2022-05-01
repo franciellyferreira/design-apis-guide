@@ -2,7 +2,7 @@
 
 ## Tratamento de Erros
 
-O tratamento de error e exceções são extremamente úteis. Os códigos de erro no estágio de resposta de uma API são a maneira fundamental pela qual um desenvolvedor pode comunicar uma falha a um usuário. Essa resposta, após a requisição, é a comunicação direta entre o cliente e a API, sendo o primeiro e mais importante passo não apenas para notificar o usuário sobre uma falha, mas também para iniciar o processo de resolução de erros. [^1]
+O tratamento de erro e exceções são extremamente úteis. Os códigos de erro no estágio de resposta de uma API são a maneira fundamental pela qual um desenvolvedor pode comunicar uma falha a um usuário. Essa resposta, após a requisição, é a comunicação direta entre o cliente e a API, sendo o primeiro e mais importante passo não apenas para notificar o usuário sobre uma falha, mas também para iniciar o processo de resolução de erros. [^1]
  
 Na construção de APIs costuma-se utilizar para o tratamento de erros e exceções na resposta das requisições os códigos de estado da família [4xx](#http-status-code.md#4xx---erro-do-cliente) que são os erros que acontecem no cliente e [5xx](#http-status-code.md#5xx---erro-do-servidor) os que acontecem no servidor. 
 
