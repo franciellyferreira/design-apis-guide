@@ -41,12 +41,14 @@
   - [Entendendo melhor Swagger e OpenAPI](documentation.md#entendendo-melhor-swagger-e-openapi)
   - [Ferramentas para documentação](documentation.md#ferramentas-para-documentação)
 
+<br>
 <hr>
+<br>
 
-Ajude a manter atualizado esse projeto: [repositório no Github](https://github.com/franciellyferreira/design-apis-guide)
-
-Licença: [acessar](LICENSE.md)
-
-Projeto idealizado por: [/franciellyferreira](https://github.com/franciellyferreira)
+Projeto idealizado por: [franciellyferreira](https://github.com/franciellyferreira)
 
 Entre em contato: [e-mail](mailto:franciellydeveloper@gmail.com?subject=[GitHub]%20Contact%20From%20Design%20APIs%20Guide%20Project)
+
+Ajude a manter o projeto atualizado: [repositório no Github](https://github.com/franciellyferreira/design-apis-guide)
+
+Licença: [acessar](LICENSE.md)
